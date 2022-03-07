@@ -1,5 +1,5 @@
 ---
-title: 01 Hello, World!
+title: Hello, World!
 ---
 
 Make a new file named `hello.py` and enter the following code:
