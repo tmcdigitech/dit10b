@@ -1,5 +1,6 @@
 ---
 title: Hello, World!
+weight: 1
 ---
 
 Make a new file named `hello.py` and enter the following code:

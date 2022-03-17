@@ -2,6 +2,10 @@
 title: Task 1 - Python Checkpoints
 ---
 
+{{< hint info >}}
+[Hand in your files here](http://10.124.229.70:8080/).
+{{< /hint >}}
+
 You will need to save each of the tasks in this set in its own file, with a simple naming system:
 - **1. Three in, three out** should be in a file named `ex1.py`,
 - **2. Name swapper** should be in a file named `ex2.py`

@@ -1,7 +1,9 @@
 ---
-title: Full HTML Example
-weight: 3
+title: HTML pages
+weight: 4
 ---
+
+This example returns a complete HTML page.
 
 {{< tabs "example" >}}
 {{< tab "base.html" >}}
