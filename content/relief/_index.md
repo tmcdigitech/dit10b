@@ -1,6 +1,6 @@
 ---
 title: RELIEF LESSON
-weight: 0
+weight: -1
 ---
 
 Hi folks. We started converting our todo list into a cookbook yesterday. (What a perfectly normal English sentence that is!)
