@@ -18,4 +18,4 @@ If you're feeling confident, see if you can adapt the demo into your own page, a
 
 [03 Editing the edit page (UPDATE and DELETE)](https://web.microsoftstream.com/video/3631d312-8e4b-42fa-99ff-f5aedaf48464)
 
-04 The new new page (INSERT)
+[04 The new new page (INSERT)](https://web.microsoftstream.com/video/3d618327-0ccc-4619-9adf-c8f25e1f587b)
