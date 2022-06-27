@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('fonts/CascadiaCode.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('fonts/CascadiaCodeItalic.woff2') format('woff2');
+    font-style: italic;
+}
+
+code, .asciinema-terminal{
+    font-family: 'Cascadia Code', monospace;
+    font-feature-settings: 'calt', 'ss01';
+}
+
+
+
+.gdoc-header{
+    background-color: #02362b;
+    border-bottom: 0.3em solid #882635;
+}
+
+:root[color-mode=dark] h1,
+:root[color-mode=dark] h2,
+:root[color-mode=dark] h3,
+:root[color-mode=dark] h4,
+:root[color-mode=dark] h5,
+:root[color-mode=dark] h6{
+    color: #bd93f9;
+}
+:root[color-mode=dark] .gdoc-markdown code{
+    color: #50fa7b;
+}
+:root[color-mode=dark] .chroma code{
+    color: #ced3d8;
+}
+:root[color-mode=dark] .gdoc-page__header,
+:root[color-mode=dark] .gdoc-search__input,
+:root[color-mode=dark] .chroma code{
+    background-color: #2f313f;
+}
+:root[color-mode=dark] strong{
+    color: #ffb86c;
+}
+:root[color-mode=dark] a.gdoc-markdown__link{
+    color: #8be9fd;
+}
+:root[color-mode=dark] .wrapper{
+    background-color: #282a36;
+}
