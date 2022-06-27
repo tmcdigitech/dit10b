@@ -1,6 +1,6 @@
-baseURL = 'https://tmcdigitech.github.io/dit10a/'
+baseURL = 'https://tmcdigitech.github.io/dit10b/'
 languageCode = 'en-au'
-title = 'TMC - 10 Digital Tech Semester 1'
+title = 'TMC - 10 Digital Tech Semester 2'
 theme = ["hugo-geekdoc", "reveal-hugo"]
 
 pluralizeListTitles = false

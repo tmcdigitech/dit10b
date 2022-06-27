@@ -1,5 +1,5 @@
 ---
-title: Task 1 - Python Checkpoints
+title: "1: Programming Checkpoints"
 ---
 
 {{< hint info >}}
