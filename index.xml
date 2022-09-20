@@ -8,16 +8,7 @@ The two highlighted lines are the key ingredients here.
 Link to view at TMC
 Video sections 0:28 - Moving An Object Using Translate 2:20 - Problems with using Translate 2:50 - Using RigidBody for Physics &amp;amp; Collisions 5:00 - 3 Ways to Move An Object with RigidBody 5:10 - Using AddForce() 6:15 - Using Velocity 7:05 - Using MovePosition Source code for translate using System.Collections; using System.Collections.Generic; using UnityEngine; public class translate : MonoBehaviour { public float speed = 10.</description></item><item><title>2. Deep Space Game</title><link>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</guid><description/></item><item><title>3: 2D Game Design Project</title><link>https://tmcdigitech.github.io/dit10b/assessment/planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/planning/</guid><description>Design Brief Using a teme of your choice, design and develop a 2D Game. Your game must have the following features:
 Player movement Collectables/rewards A player score, which is displayed Enemies with collision events A winning state It must also feature:
-User friendly interface with messages Event sound effects Two levels (bonus) Game Proposal All projects need an introduction that tells the reader what the intended aim of the developed project will be.</description></item><item><title>3D example links</title><link>https://tmcdigitech.github.io/dit10b/3dExample/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/3dExample/</guid><description>Build your first 3D game in Unity View at TMC
-First level View at TMC
-Player movement View at TMC
-Grounding check
-Moving platforms
-Walking enemies
-Collectible items
-Sounds and music
-Adding more levels
-Start and game over screen</description></item><item><title>Character control</title><link>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</guid><description>from pressstart.vip
+User friendly interface with messages Event sound effects Two levels (bonus) Game Proposal All projects need an introduction that tells the reader what the intended aim of the developed project will be.</description></item><item><title>Character control</title><link>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</guid><description>from pressstart.vip
 2D character animation
 Character running and movement
 Perfect jumping in Unity</description></item><item><title>Endless 2D background</title><link>https://tmcdigitech.github.io/dit10b/basics/endlessBackground/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/endlessBackground/</guid><description>from pressstart.vip
