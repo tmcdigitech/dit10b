@@ -2,6 +2,8 @@
 title: 3D example links
 ---
 
+Playlist: [YouTube](https://www.youtube.com/playlist?list=PLrnPJCHvNZuB5ATsJZLKX3AW4V9XaIV9b) | [MS Stream (for viewing at TMC)](https://web.microsoftstream.com/channel/ed35021e-8274-47fe-b6d3-7c617d3afd81)
+
 **Build your first 3D game in Unity**
 {{< youtube n0GQL5JgJcY >}}
 [View at TMC](https://web.microsoftstream.com/video/935452a1-de8c-4c4e-9e0f-d646fca9cb3c)
@@ -15,10 +17,16 @@ title: 3D example links
 [View at TMC](https://web.microsoftstream.com/video/c326b5e8-dc7b-4ebb-a60f-517d47186090)
 
 **Grounding check**
+{{< youtube Ekfio0gfn-Y >}}
+[View at TMC](https://web.microsoftstream.com/video/5e5395a9-54fa-40ba-b825-1eec0ae20f42)
 
 **Moving platforms**
+{{< youtube dWtjKKR7Q3s >}}
+[View at TMC](https://web.microsoftstream.com/video/53e0ba92-2580-4b5d-ad84-79674a860035?list=studio)
 
 **Walking enemies**
+{{< youtube B90r-209vYk>}}
+[View at TMC](https://web.microsoftstream.com/video/2984f7bc-e2e7-4bbd-8a71-adb899f3ce30)
 
 **Collectible items**
 

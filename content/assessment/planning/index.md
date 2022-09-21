@@ -37,3 +37,7 @@ Use the [planning template](AppPlanning.docx) as the basis for your game proposa
 	- Levels of difficulty
 	- Victory Conditions: a. How do you win the game? If there is no way to win the game, what is the player trying to accomplish?
 
+
+# Design
+
+![](gddCoggle.png)
