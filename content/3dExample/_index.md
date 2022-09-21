@@ -29,9 +29,17 @@ Playlist: [YouTube](https://www.youtube.com/playlist?list=PLrnPJCHvNZuB5ATsJZLKX
 [View at TMC](https://web.microsoftstream.com/video/2984f7bc-e2e7-4bbd-8a71-adb899f3ce30)
 
 **Collectible items**
+{{< youtube YQEq6Lkd69c >}}
+[View at TMC](https://web.microsoftstream.com/video/e6c01b8f-ce99-489a-8a69-85ac5eac1093)
 
 **Sounds and music**
+{{< youtube Gs5QxGrRzNQ >}}
+[View at TMC](https://web.microsoftstream.com/video/d86ef321-be79-4555-be81-5d2478cf593b)
 
 **Adding more levels**
+{{< youtube Va90Uf28Tg8 >}}
+[View at TMC](https://web.microsoftstream.com/video/dcd425a8-9d12-4899-841b-b65f100c4211)
 
 **Start and game over screen**
+{{< youtube 1Ye-mCuIIdw >}}
+[View at TMC](https://web.microsoftstream.com/video/b10aa611-c8e0-4be0-83bf-3f72c9abff19)
