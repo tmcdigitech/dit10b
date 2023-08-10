@@ -63,3 +63,4 @@ Enter the current temperature.
 > 78
 At 78°C, water will be a liquid.
 ```
+{{< /columns >}}
