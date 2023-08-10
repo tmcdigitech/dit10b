@@ -1,4 +1,7 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
+
+/* @font-face {
     font-family: 'Cascadia Code';
     src: url('fonts/CascadiaCode.woff2') format('woff2');
     font-style: normal;
@@ -8,10 +11,10 @@
     font-family: 'Cascadia Code';
     src: url('fonts/CascadiaCodeItalic.woff2') format('woff2');
     font-style: italic;
-}
+} */
 
 code, .asciinema-terminal{
-    font-family: 'Cascadia Code', monospace;
+    font-family: 'Hack', 'Cascadia Code', monospace;
     font-feature-settings: 'calt', 'ss01';
 }
 
@@ -20,6 +23,14 @@ code, .asciinema-terminal{
 .gdoc-header{
     background-color: #02362b;
     border-bottom: 0.3em solid #882635;
+    font-family: 'Atkinson Hyperlegible';
+    font-weight: bold;
+}
+body{
+    font-family: 'Atkinson Hyperlegible';
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 1.2rem;
 }
 
 :root[color-mode=dark] h1,
