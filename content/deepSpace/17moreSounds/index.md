@@ -2,6 +2,11 @@
 title: "17: More sounds"
 weight: 17
 ---
+{{< hint info >}}
+#### Files
+- [Asteroid explosion](explosionCrunch_000.ogg)
+{{</ hint >}}
+
 Let's add a sound for when our asteroids blow up.
 
 You'll have noticed that we didn't need any code for our LaserBlast sounds, and that might have surprised you. That's because we got lucky, and we didn't need to. In general, you will, and we'll look at that now. If you look at the setup for our LaserBlast, you'll see in the AudioSource that there is an option checked called "Play On Awake". This says that whenver our object "wakes up", the sound should play and since the Rigidbody component sets our LaserBlast to "Start Awake" it goes off as soon as our laser blast is constructed, which is exactly what we wanted. Job done, free of charge.

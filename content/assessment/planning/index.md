@@ -1,6 +1,12 @@
 ---
 title: "3: 2D Game Design Project"
 ---
+{{< hint info >}}
+###### Files
+
+- [Game Planning Template](GamePlanning.docx)
+{{</ hint >}}
+
 
 ## Design Brief
 Using a teme of your choice, design and develop a 2D Game. Your game must have the following features:
@@ -19,7 +25,7 @@ It must also feature:
 ## Game Proposal
 All projects need an introduction that tells the reader what the intended aim of the developed project will be. The problem definition explains the problem/situation and outlines the intended outcomes of the system.
 
-Use the [planning template](AppPlanning.docx) as the basis for your game proposal, being sure to include all relevant design information.
+Use the [planning template](GamePlanning.docx) as the basis for your game proposal, being sure to include all relevant design information.
 
 - Game Title
 - Overall vision for the game
