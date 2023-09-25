@@ -94,10 +94,10 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="icon gdoc_path hidden-mobile
 </span></span><span class=line><span class=cl><span class=k>using</span> <span class=nn>System.Collections.Generic</span><span class=p>;</span>
 </span></span><span class=line><span class=cl><span class=k>using</span> <span class=nn>UnityEngine</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>public</span> <span class=k>class</span> <span class=nc>Asteroid</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
+</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>Asteroid</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
 </span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class="line hl"><span class=cl>    <span class=k>public</span> <span class=n>GameObject</span> <span class=n>debrisTemplate</span><span class=p>;</span>
-</span></span><span class="line hl"><span class=cl>    <span class=k>private</span> <span class=kt>float</span> <span class=n>initializationTime</span><span class=p>;</span>
+</span></span><span class="line hl"><span class=cl>    <span class=kd>public</span> <span class=n>GameObject</span> <span class=n>debrisTemplate</span><span class=p>;</span>
+</span></span><span class="line hl"><span class=cl>    <span class=kd>private</span> <span class=kt>float</span> <span class=n>initializationTime</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>    <span class=c1>// Start is called before the first frame update</span>
 </span></span><span class=line><span class=cl>    <span class=k>void</span> <span class=n>Start</span><span class=p>()</span>
@@ -151,7 +151,7 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="icon gdoc_path hidden-mobile
 </span></span><span class="line hl"><span class=cl>        <span class=p>}</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>        <span class=k>if</span><span class=p>(</span> <span class=n>other</span><span class=p>.</span><span class=n>gameObject</span><span class=p>.</span><span class=n>CompareTag</span><span class=p>(</span><span class=s>&#34;LaserBlast&#34;</span><span class=p>)</span> <span class=p>){</span>
-</span></span><span class="line hl"><span class=cl>            <span class=k>if</span><span class=p>(</span> <span class=n>debrisTemplate</span> <span class=p>!=</span> <span class=k>null</span><span class=p>){</span> <span class=c1>// &#34;!=&#34; = &#34;!&#34; + &#34;=&#34;</span>
+</span></span><span class="line hl"><span class=cl>            <span class=k>if</span><span class=p>(</span> <span class=n>debrisTemplate</span> <span class=p>!=</span> <span class=kc>null</span><span class=p>){</span> <span class=c1>// &#34;!=&#34; = &#34;!&#34; + &#34;=&#34;</span>
 </span></span><span class="line hl"><span class=cl>                <span class=kt>float</span> <span class=n>angle</span> <span class=p>=</span> <span class=n>Random</span><span class=p>.</span><span class=n>Range</span><span class=p>(</span><span class=m>0f</span><span class=p>,</span> <span class=m>180f</span><span class=p>);</span>
 </span></span><span class="line hl"><span class=cl>                <span class=kt>float</span> <span class=n>speed</span> <span class=p>=</span> <span class=n>Random</span><span class=p>.</span><span class=n>Range</span><span class=p>(</span><span class=m>5f</span><span class=p>,</span> <span class=m>10f</span><span class=p>);</span>
 </span></span><span class="line hl"><span class=cl>                <span class=n>Vector3</span> <span class=n>s</span> <span class=p>=</span> <span class=k>new</span> <span class=n>Vector3</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=n>speed</span><span class=p>,</span> <span class=m>0</span><span class=p>);</span>

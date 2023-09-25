@@ -45,10 +45,10 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="icon gdoc_path hidden-mobile
 </span></span><span class=line><span class=cl><span class=k>using</span> <span class=nn>UnityEngine</span><span class=p>;</span>
 </span></span><span class="line hl"><span class=cl><span class=k>using</span> <span class=nn>UnityEngine.UI</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>public</span> <span class=k>class</span> <span class=nc>GameManager</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
+</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>GameManager</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
 </span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class="line hl"><span class=cl>    <span class=k>public</span> <span class=kt>int</span> <span class=n>score</span><span class=p>;</span>
-</span></span><span class="line hl"><span class=cl>    <span class=k>public</span> <span class=n>TMPro</span><span class=p>.</span><span class=n>TextMeshProUGUI</span> <span class=n>scoreField</span><span class=p>;</span>
+</span></span><span class="line hl"><span class=cl>    <span class=kd>public</span> <span class=kt>int</span> <span class=n>score</span><span class=p>;</span>
+</span></span><span class="line hl"><span class=cl>    <span class=kd>public</span> <span class=n>TMPro</span><span class=p>.</span><span class=n>TextMeshProUGUI</span> <span class=n>scoreField</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>    
 </span></span><span class=line><span class=cl>    <span class=c1>// Start is called before the first frame update</span>
 </span></span><span class=line><span class=cl>    <span class=k>void</span> <span class=n>Start</span><span class=p>()</span>
@@ -62,7 +62,7 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="icon gdoc_path hidden-mobile
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class="line hl"><span class=cl>    <span class=k>public</span> <span class=k>void</span> <span class=n>ScoreIncrease</span><span class=p>(</span><span class=kt>int</span> <span class=n>n</span><span class=p>)</span>
+</span></span><span class="line hl"><span class=cl>    <span class=kd>public</span> <span class=k>void</span> <span class=n>ScoreIncrease</span><span class=p>(</span><span class=kt>int</span> <span class=n>n</span><span class=p>)</span>
 </span></span><span class="line hl"><span class=cl>    <span class=p>{</span>
 </span></span><span class="line hl"><span class=cl>        <span class=n>score</span> <span class=p>+=</span> <span class=n>n</span><span class=p>;</span>
 </span></span><span class="line hl"><span class=cl>        <span class=n>scoreField</span><span class=p>.</span><span class=n>text</span> <span class=p>=</span> <span class=s>&#34;Destroyed: &#34;</span><span class=p>+</span><span class=n>score</span><span class=p>;</span>
@@ -106,11 +106,11 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="icon gdoc_path hidden-mobile
 </span></span><span class=line><span class=cl><span class=k>using</span> <span class=nn>System.Collections.Generic</span><span class=p>;</span>
 </span></span><span class=line><span class=cl><span class=k>using</span> <span class=nn>UnityEngine</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>public</span> <span class=k>class</span> <span class=nc>Asteroid</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
+</span></span><span class=line><span class=cl><span class=kd>public</span> <span class=k>class</span> <span class=nc>Asteroid</span> <span class=p>:</span> <span class=n>MonoBehaviour</span>
 </span></span><span class=line><span class=cl><span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=k>public</span> <span class=n>GameObject</span> <span class=n>debrisTemplate</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=k>private</span> <span class=kt>float</span> <span class=n>initializationTime</span><span class=p>;</span>
-</span></span><span class="line hl"><span class=cl>    <span class=k>private</span> <span class=n>GameManager</span> <span class=n>gm</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=kd>public</span> <span class=n>GameObject</span> <span class=n>debrisTemplate</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=kd>private</span> <span class=kt>float</span> <span class=n>initializationTime</span><span class=p>;</span>
+</span></span><span class="line hl"><span class=cl>    <span class=kd>private</span> <span class=n>GameManager</span> <span class=n>gm</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>    <span class=c1>// Start is called before the first frame update</span>
 </span></span><span class=line><span class=cl>    <span class=k>void</span> <span class=n>Start</span><span class=p>()</span>
@@ -132,7 +132,7 @@ hidden-mobile" itemprop=breadcrumb><div><svg class="icon gdoc_path hidden-mobile
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>        <span class=k>if</span><span class=p>(</span> <span class=n>other</span><span class=p>.</span><span class=n>gameObject</span><span class=p>.</span><span class=n>CompareTag</span><span class=p>(</span><span class=s>&#34;LaserBlast&#34;</span><span class=p>)</span> <span class=p>){</span>
 </span></span><span class="line hl"><span class=cl>            <span class=n>gm</span><span class=p>.</span><span class=n>ScoreIncrease</span><span class=p>(</span><span class=m>1</span><span class=p>);</span>
-</span></span><span class=line><span class=cl>            <span class=k>if</span><span class=p>(</span> <span class=n>debrisTemplate</span> <span class=p>!=</span> <span class=k>null</span><span class=p>){</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span><span class=p>(</span> <span class=n>debrisTemplate</span> <span class=p>!=</span> <span class=kc>null</span><span class=p>){</span>
 </span></span><span class=line><span class=cl>                <span class=c1>// ...</span>
 </span></span><span class=line><span class=cl>        <span class=p>}</span>
 </span></span><span class=line><span class=cl>    <span class=p>}</span>
