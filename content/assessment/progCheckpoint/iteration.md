@@ -4,6 +4,12 @@ weight: 3
 ---
 *from [The Computing Zone](https://thecomputing.zone/Python/15-Challenges/)*
 
+{{< hint info >}}
+For a walkthrough of the two main kinds of loops, check these examples:
+- while loop ([pdf](whileDemo.pdf) | [ppt](whileDemo.pptx))
+- for loop ([pdf](forDemo.pdf) | [ppt](forDemo.pptx))
+{{< /hint >}}
+
 {{< columns >}}
 ## 13. Lines cheat
 A naughty pupil has been given lines to copy as a punishment from their Computing teacher. The have been asked to type out “I must not behave like muppet in class” 20 times. Write a program that asks a pupil to enter a sentence. The same sentence should then be displayed 20 times. 
