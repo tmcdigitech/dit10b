@@ -93,7 +93,7 @@ Enter the total raised by each person:
 > 174
 > 
 A total of $2566 was raised.
-This will be increased to $4566.
+This will be increased to $5132.
 {{< /columns >}}
 
 {{< columns >}}
