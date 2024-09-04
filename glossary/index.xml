@@ -1,6 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Glossary on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/glossary/</link><description>Recent content in Glossary on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/glossary/index.xml" rel="self" type="application/rss+xml"/><item><title>Components</title><link>https://tmcdigitech.github.io/dit10b/glossary/components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/components/</guid><description>All game objects have one or more components.
-Here are the ones you&amp;rsquo;re most likely to encounter.
-Name This is not actually a component, but it lives at the top of the inspector panel, above all the components. Here you can give your object a meaningful name as well as attach a tag, which is useful for identifying things during collisions.
-Transform All GameObjects have a transform component, which manages the position, rotation and scale of the object in the scene.</description></item><item><title>coordinates</title><link>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</guid><description>3D coordinate systems can be either left- or right-handed. In most of the maths and physics world, we us a right-handed system, but in Unity we use a left-handed one. But what does that mean?
-If you hold your left hand with your thumb pointing to the right (the x-axis) and your index finger pointing up (the y-axis), when you extend your middle finger it will point away from you. But if you do the same with your right hand, facing your thumb to the right and your index finger up, your middle finger will extend toward you.</description></item><item><title>Hierarchy</title><link>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</guid><description/></item><item><title>types</title><link>https://tmcdigitech.github.io/dit10b/glossary/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/types/</guid><description>Kind of information Name Main type Other types whole numbers integer int uint, sbyte, byte, short, ushort, long, ulong decimals in scientific notation floating point number double float true/false boolean bool text string string individual letters, digits character char bool Boolean bool Integer Integers are whole numbers: positive, negative or zero. When you declare an integer you need to tell the computer how much space (how many digits) you need.</description></item><item><title>unity components</title><link>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</guid><description>Transform Sprite Renderer Rigidbody [2D] Collider [2D] Transform The transform component is responsible for tracking the position, rotation and scale of the component in each of the three dimensions. Note that transform always has three dimensions, even when working in a 2D project.
-If you want to rotate an object in a 2D project, you probably want to rotate about the z-axis! Sprite Renderer Sprite renderers draw (render) 2D images (sprites).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Glossary on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/glossary/</link><description>Recent content in Glossary on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/glossary/index.xml" rel="self" type="application/rss+xml"/><item><title>Components</title><link>https://tmcdigitech.github.io/dit10b/glossary/components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/components/</guid><description>&lt;p>All &lt;a class="gdoc-markdown__link" href="https://tmcdigitech.github.io/dit10b/glossary/hierarchy/">game objects&lt;/a> have one or more &lt;strong>components&lt;/strong>.&lt;/p>
+&lt;p>Here are the ones you&amp;rsquo;re most likely to encounter.&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="name">
+ Name
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/components/#name" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Name" href="#name">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>&lt;img src="nameTagPrefab.png" alt="" />&lt;/p></description></item><item><title>coordinates</title><link>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</guid><description>&lt;p>3D coordinate systems can be either left- or right-handed.
+In most of the maths and physics world, we us a right-handed system,
+but in Unity we use a left-handed one. But what does that mean?&lt;/p>
+&lt;p>If you hold your left hand with your thumb pointing to the right (the x-axis)
+and your index finger pointing up (the y-axis), when you extend your middle finger
+it will point away from you. But if you do the same with your right hand, facing your
+thumb to the right and your index finger up, your middle finger will extend toward you.&lt;/p></description></item><item><title>Hierarchy</title><link>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</guid><description>&lt;p>&lt;img src="hierarchy.png" alt="" />&lt;/p></description></item><item><title>types</title><link>https://tmcdigitech.github.io/dit10b/glossary/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/types/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Kind of information&lt;/th>
+ &lt;th style="text-align: left">Name&lt;/th>
+ &lt;th style="text-align: left">Main type&lt;/th>
+ &lt;th style="text-align: left">Other types&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">whole numbers&lt;/td>
+ &lt;td style="text-align: left">integer&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;td style="text-align: left">uint, sbyte, byte, short, ushort, long, ulong&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">decimals in scientific notation&lt;/td>
+ &lt;td style="text-align: left">floating point number&lt;/td>
+ &lt;td style="text-align: left">double&lt;/td>
+ &lt;td style="text-align: left">float&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">true/false&lt;/td>
+ &lt;td style="text-align: left">boolean&lt;/td>
+ &lt;td style="text-align: left">bool&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">text&lt;/td>
+ &lt;td style="text-align: left">string&lt;/td>
+ &lt;td style="text-align: left">string&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">individual letters, digits&lt;/td>
+ &lt;td style="text-align: left">character&lt;/td>
+ &lt;td style="text-align: left">char&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+
+
+ &lt;div class="gdoc-toc gdoc-toc__level--6">&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#bool">&lt;code>bool&lt;/code>&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>&lt;hr>&lt;/div>
+
+
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="boolean">
+ Boolean
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/types/#boolean" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Boolean" href="#boolean">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="bool">
+ &lt;code>bool&lt;/code>
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/types/#bool" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor bool" href="#bool">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="integer">
+ Integer
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/types/#integer" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Integer" href="#integer">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;p>Integers are whole numbers: positive, negative or zero. When you declare an integer you need to tell the computer how much space (how many digits) you need. On most modern systems, the default kind of integer (usually called &lt;code>int&lt;/code>) is a &lt;em>32-bit signed&lt;/em> integer, which can store numbers between &lt;code>-2,147,483,648&lt;/code> and &lt;code>2,147,483,647&lt;/code>. Unless you have a good reason to choose differently, this is usually the best bet.&lt;/p></description></item><item><title>unity components</title><link>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#transform">Transform&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#sprite-renderer">Sprite Renderer&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#rigidbody-2d">Rigidbody [2D]&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#collider-2d">Collider [2D]&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>&lt;hr>&lt;/div>
+
+
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="transform">
+ Transform
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/unityComponents/#transform" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Transform" href="#transform">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>The transform component is responsible for tracking the position, rotation and scale of the component in each of the three dimensions. Note that transform always has three dimensions, even when working in a 2D project.&lt;/p></description></item></channel></rss>

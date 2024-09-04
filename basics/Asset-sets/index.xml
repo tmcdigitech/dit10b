@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Asset sets on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/</link><description>Recent content in Asset sets on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/basics/Asset-sets/index.xml" rel="self" type="application/rss+xml"/><item><title>Platformer</title><link>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</guid><description>from kenney.nl
-The player sprites are 128×256px, all others are 128×128.
-Complete sheet
-Enemies
-Ground
-HUD
-Items
-Players
-Tiles</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Asset sets on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/</link><description>Recent content in Asset sets on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/basics/Asset-sets/index.xml" rel="self" type="application/rss+xml"/><item><title>Platformer</title><link>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://kenney.nl/assets/platformer-pack-redux">kenney.nl&lt;/a>&lt;/em>&lt;/p>
+&lt;p>The player sprites are 128×256px, all others are 128×128.&lt;/p>
+&lt;p>Complete sheet&lt;/p>
+&lt;p>&lt;img src="spritesheet_complete.png" alt="" />&lt;/p>
+&lt;p>Enemies&lt;/p>
+&lt;p>&lt;img src="spritesheet_enemies.png" alt="" />&lt;/p>
+&lt;p>Ground&lt;/p>
+&lt;p>&lt;img src="spritesheet_ground.png" alt="" />&lt;/p>
+&lt;p>HUD&lt;/p>
+&lt;p>&lt;img src="spritesheet_hud.png" alt="" />&lt;/p>
+&lt;p>Items&lt;/p>
+&lt;p>&lt;img src="spritesheet_items.png" alt="" />&lt;/p>
+&lt;p>Players&lt;/p>
+&lt;p>&lt;img src="spritesheet_players.png" alt="" />&lt;/p>
+&lt;p>Tiles&lt;/p>
+&lt;p>&lt;img src="spritesheet_tiles.png" alt="" />&lt;/p></description></item></channel></rss>

@@ -1,70 +1,708 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>10 Digital Tech on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/</link><description>Recent content in 10 Digital Tech on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/index.xml" rel="self" type="application/rss+xml"/><item><title>1: Create project</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/01createProject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/01createProject/</guid><description>Make sure you choose 2D for your template. The new project may take a few minutes to create.</description></item><item><title>Sequence</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</guid><description>from The Computing Zone
-1. Three in, three out Write a program that will allow a user to enter their name (string), their age (integer) and their favourite TV program (string). The program will then display the information entered and some additional text on separate lines. An example of the input and output from the program is shown below.
-What is your name? &amp;gt; Lister What is your age? &amp;gt; 39 What is your favourite TV program?</description></item><item><title>2: Get some assets</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/02getSomeAssets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/02getSomeAssets/</guid><description>We need some objects to go in our game. In this example, we&amp;rsquo;ll use assets from kenney.nl&amp;rsquo;s asset pack Space Shooter Redux.
-We need:
-ships (us and them) asteroids (we&amp;rsquo;re going large, medium, small) powerups/tokens laser blast explosions Here are the assets we&amp;rsquo;ll use:
-Download your assets, and then drag them into the assets panel at the bottom of the Unity screen.</description></item><item><title>Selection</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</guid><description>from The Computing Zone
-9. Advice please Write a program that asks the user if they would like some advice. If they enter Y, provide them with an amusing message.
-Would you like some advice? &amp;gt; Y Always know where your towel is. Would you like some advice? &amp;gt; N 10. Darts During a game of darts, the highest score that can be achieved in a single turn is 180. The lowest is 0.</description></item><item><title>3: Understand the Unity UI</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/03unityInterface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/03unityInterface/</guid><description>Drag the sprite (image) for your player ship into the Scene to create the GameObject for your player.
-The white rectangle shows what is visible on the main camera, whose location is shown by the camera image in the centre of the scene. The main camera is what will appear on our screen, so for our basic example, anything inside that white rectangle will be visible on screen, and anything outside will not be.</description></item><item><title>Iteration</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</guid><description>from The Computing Zone
-For a walkthrough of the two main kinds of loops, check these examples:
-while loop (pdf | ppt) for loop (pdf | ppt) 13. Lines cheat A naughty pupil has been given lines to copy as a punishment from their Computing teacher. The have been asked to type out “I must not behave like muppet in class” 20 times. Write a program that asks a pupil to enter a sentence.</description></item><item><title>4: Use the inspector</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/04usingTheInspector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/04usingTheInspector/</guid><description>The inspector panel shows information about a selected GameObject, including all its components.
-You can adjust values in the inspector by:
-typing values directly in an input field dragging up/down or left/right on input field&amp;rsquo;s text label, dragging an object from the hierarchy or assets panes onto a reference field (the fields with a little &amp;ldquo;target&amp;rdquo; at the right) The dragging a label option can be really handy for working out approximately what the value for some property should be, before choosing a specific value for it.</description></item><item><title>5: Add components</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/05addingComponents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/05addingComponents/</guid><description>Using the Add Component button, add a Rigidbody2D and a BoxCollider2D component:
-Physics 2D &amp;gt; Rigidbody 2D to add the Rigidbody2D component, and Physics 2D &amp;gt; BoxCollider 2D to add a BoxCollider2D component. The Rigidbody component exposes the object to the Physics engine, allowing forces to operate on it. If you press the play button above your scene now, you will see that the force of gravity causes your ship to fall off the bottom of the screen.</description></item><item><title>6: Get the player moving</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/06gettingMoving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/06gettingMoving/</guid><description>Disable gravity At the moment our player moves, but only because of gravity, and there isn&amp;rsquo;t a lot of gravity in space. So let&amp;rsquo;s turn that off. In the menu bar, go to Edit &amp;gt; Project Settings, choose Physics 2D from the sidebar, and set the Y value of Gravity to zero (0).
-Create player script With your player&amp;rsquo;s game object selected, from the inspector choose Add component. In the search field, type &amp;ldquo;Player&amp;rdquo;, and then choose New script, and then Create and Add.</description></item><item><title>7: Add asteroids</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/07asteroids/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/07asteroids/</guid><description>Let&amp;rsquo;s add some asteroids. Since asteroids are all broadly alike, it&amp;rsquo;d be great if there was a way to set up one up with all the components and scripts we need and then just clone it, and there is: prefabs!
-Drag one the large meteor image into the scene, and rename it asteroidLarge. In the tag menu, select &amp;ldquo;Add tag&amp;rdquo;. Under &amp;ldquo;tags&amp;rdquo;, it will say &amp;ldquo;List is empty&amp;rdquo;. Click on the + at the right end of that box, and enter &amp;ldquo;Asteroid&amp;rdquo; and hit Save.</description></item><item><title>8: Wrap the screen</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/08screenWrapping.md/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/08screenWrapping.md/</guid><description>Player Asteroids At the moment, once an asteroid (or your ship) disappears off the edge of the screen, it will continue moving forever and you&amp;rsquo;ll likely never find it again. In some games you might choose to attach the camera to the player so you can move around and keep the player on the screen, but in this case we&amp;rsquo;re going to wrap the screen: when the player moves off one edge, they&amp;rsquo;ll reappear on the other.</description></item><item><title>9: Move asteroids</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/09randomMovement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/09randomMovement/</guid><description>Having the asteroids hang in space as they do looks a litle unrealistic, so let&amp;rsquo;s add some code to the Start() method to give them some initial movement.
-The first part chooses a random angle from 0 to 360, and sets the z-axis rotation to that angle.
-The second part chooses a random speed from 0.5 to 2. It then creates a vector pointing up (positive-y) which is the natural forward direction, and then rotates that vector to match the rotation of the asteroid.</description></item><item><title>10: Make a gun</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/10gun/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/10gun/</guid><description>Let&amp;rsquo;s make a gun. Our gun will be slightly odd, in that it won&amp;rsquo;t be attached directly to the ship. Instead, the thing we&amp;rsquo;re going to build will be invisible, and sit just in front of the ship. When we press the fire button (left Ctrl by default), our player will generate a laser blast at the location of the gun, which will then travel forward at speed.
-We need to make sure that the gun object is a &amp;ldquo;child&amp;rdquo; object of the player, so that the gun is attached to the player and moves as the player moves.</description></item><item><title>UFO assets</title><link>https://tmcdigitech.github.io/dit10b/alienRescue/UFO/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/alienRescue/UFO/</guid><description> Name Image UFO Alien</description></item><item><title>UFO assets</title><link>https://tmcdigitech.github.io/dit10b/basics/UFO/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/UFO/</guid><description> Name Image UFO Alien</description></item><item><title>11: Make a laser blast</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/11laserBlastPrefab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/11laserBlastPrefab/</guid><description>We now need to make our laser blast. Grab the laser blast you chose (ours is green) and drag it into the scene to make a new game object. Call it &amp;ldquo;playerBlast&amp;rdquo;. As you did for the asteroids, make a tag called &amp;ldquo;LaserBlast&amp;rdquo; and tag your new playerBlast.
-While we&amp;rsquo;re setting things up, go ahead and add a BoxCollider2D and a Rigidbody2D.
-Now turn your playerBlast into a prefab (drag it from the hierarchy down into the Assets panel).</description></item><item><title>12: Handle blast collisions</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/12laserCollisions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/12laserCollisions/</guid><description>You can see you can shoot laser blasts, and they collide with the asteroids, causing them to move. They also then bounce off in a weird way that makes them look more like shards of coloured ice than laser blasts!
-Firstly, go to your playerBlast prefab (in the Assets panel). In its collider component, turn on the &amp;ldquo;Is Trigger&amp;rdquo; option. This turns the blast from a physical object that collides into more of a &amp;ldquo;magic region&amp;rdquo; that things can pass through.</description></item><item><title>13: Limit laser life</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/13limitLaserLife/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/13limitLaserLife/</guid><description>If you&amp;rsquo;re not a particularly accurate shot, those laser blasts you fire will continue to travel for ever, until the scene is unloaded (either due to changing the scene or quitting the game). This feels untidy and, in a big game, can cause resources to be tied up and used on things which aren&amp;rsquo;t relevant anymore. Let&amp;rsquo;s use the same idea used to handle screen wrapping to destroy the laser blasts once they reach the edge of the screen.</description></item><item><title>14: Make debris</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/14debris/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/14debris/</guid><description>Here we&amp;rsquo;re going to implement &amp;ldquo;debris&amp;rdquo;. When an asteroid is destroyed, it can break into smaller pieces, which can also be destroyed (and also potentially break into pieces). In practice, we will use a combination of Destroy() and Instantiate() to remove the old asteroid and create three new ones in its place. One is in the direction of the original asteroid, and the other two are mirrored at a random angle from that direction.</description></item><item><title>15: Make debris (part 2)</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/15duplicatePrefabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/15duplicatePrefabs/</guid><description>Select your asteroidLarge prefab and from the menubar choose Edit &amp;gt; Duplicate (Ctrl-D). Choose the copy (should have a 1 at the end of the name) and choose Open from the inspector. You can now rename it asteroidMedium. It&amp;rsquo;ll ask you if you want to rename the file or keep the old name: choose Rename File. Drag your medium sprite image into the Sprite Renderer&amp;rsquo;s sprite field. You&amp;rsquo;ll now need to adjust the Collider size: Choose &amp;ldquo;Edit Collider&amp;rdquo; in the collider panel in the inspector, and use the green knobs to adjust the size.</description></item><item><title>16: Make some noise</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/16sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/16sounds/</guid><description>It is fairly easy to make some sound when we fire our lasers. We&amp;rsquo;ll cover some more complex examples later. To make sound you need an AudioSource, which makes sound, and an AudioListener, to hear it. By default, the main camera has an AudioListener attached, and that is perfect for our needs (it usually is, which is why it&amp;rsquo;s there).
-Select your PlayerBlast prefab and add an Audio &amp;gt; AudioSource component.</description></item><item><title>17: More sounds</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/17moreSounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/17moreSounds/</guid><description>Files Asteroid explosion Let&amp;rsquo;s add a sound for when our asteroids blow up.
-You&amp;rsquo;ll have noticed that we didn&amp;rsquo;t need any code for our LaserBlast sounds, and that might have surprised you. That&amp;rsquo;s because we got lucky, and we didn&amp;rsquo;t need to. In general, you will, and we&amp;rsquo;ll look at that now. If you look at the setup for our LaserBlast, you&amp;rsquo;ll see in the AudioSource that there is an option checked called &amp;ldquo;Play On Awake&amp;rdquo;.</description></item><item><title>18: Show the score</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/18score/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/18score/</guid><description>Let&amp;rsquo;s give the user a sense of how well they&amp;rsquo;re doing; we&amp;rsquo;ll give them a point for every asteroid they shoot.
-We&amp;rsquo;ll start by setting up the score display. Right click in the hierarchy and choose UI &amp;gt; Text - TextMeshPro.
-You&amp;rsquo;ll likely be presented with this box:
-You&amp;rsquo;ll need to click the &amp;ldquo;Import TMP Essentials&amp;rdquo; button to continue. If you are keen to learn more about TextMesh Pro&amp;rsquo;s features, you can click the second button as well, but if you&amp;rsquo;re just going to rely on this tutorial series, don&amp;rsquo;t worry about it, and just close the window once the essentials have been added.</description></item><item><title>19: Update the score</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/19scoreTrack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/19scoreTrack/</guid><description>Now that we&amp;rsquo;ve got a place to display the score, we need a way of managing the score. The most flexible way to handle this is to make a game object whose job is to manage aspects of the game. A GameManager!
-In the hierarchy, create an empty game object (right click, choose &amp;ldquo;Create Empty&amp;rdquo;). Call this &amp;ldquo;GameManager&amp;rdquo;.
-Add a script called GameManager to it.
-The game manager will keep track of the score, and have a reference to the score display so it can update the display when the score changes.</description></item><item><title>Player movement</title><link>https://tmcdigitech.github.io/dit10b/alienRescue/playerMovement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/alienRescue/playerMovement/</guid><description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 using System.Collections; using System.Collections.Generic; using UnityEngine; public class Player : MonoBehaviour { public float accel; private Rigidbody2D rb; // Start is called before the first frame update void Start() { rb = GetComponent&amp;lt;Rigidbody2D&amp;gt;(); } // Update is called once per frame void Update() { float inX = Input.</description></item><item><title>Player movement</title><link>https://tmcdigitech.github.io/dit10b/basics/playerMovement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/playerMovement/</guid><description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 using System.Collections; using System.Collections.Generic; using UnityEngine; public class Player : MonoBehaviour { public float accel; private Rigidbody2D rb; // Start is called before the first frame update void Start() { rb = GetComponent&amp;lt;Rigidbody2D&amp;gt;(); } // Update is called once per frame void Update() { float inX = Input.</description></item><item><title>Camera follow player</title><link>https://tmcdigitech.github.io/dit10b/basics/cameraFollow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/cameraFollow/</guid><description>Attach this script to the main camera to make the camera track the player, keeping them in the centre of the screen.
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 using System.Collections; using System.Collections.Generic; using UnityEngine; public class CameraScript : MonoBehaviour { public GameObject target; public float offsetY = 2; public float offsetX = 2; // Use this for initialization void Start () { } // Update is called once per frame void Update () { loc = target.</description></item><item><title>Scenes</title><link>https://tmcdigitech.github.io/dit10b/basics/scenes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/scenes/</guid><description>Scenes are selected by number (on the right hand side of the scene list in the build settings).
-The two highlighted lines are the key ingredients here.
-1 2 3 4 5 6 7 8 9 10 11 12 using System.Collections; using System.Collections.Generic; using UnityEngine; using UnityEngine.SceneManagement; public class Player : MonoBehaviour { public void LoadScene(int level) { SceneManager.LoadScene(level); } }</description></item><item><title>Assets</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/assets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/assets/</guid><description>Alt-click to download:
-Explosion 1 Explosion 2</description></item><item><title>Rigidbody vs Translate</title><link>https://tmcdigitech.github.io/dit10b/basics/RigidbodyOrTranslate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/RigidbodyOrTranslate/</guid><description>from pressstart.vip
-Link to view at TMC
-Video sections 0:28 - Moving An Object Using Translate 2:20 - Problems with using Translate 2:50 - Using RigidBody for Physics &amp;amp; Collisions 5:00 - 3 Ways to Move An Object with RigidBody 5:10 - Using AddForce() 6:15 - Using Velocity 7:05 - Using MovePosition Source code for translate using System.Collections; using System.Collections.Generic; using UnityEngine; public class translate : MonoBehaviour { public float speed = 10.</description></item><item><title>2. Deep Space Game</title><link>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</guid><description/></item><item><title>3: 2D Game Design Project</title><link>https://tmcdigitech.github.io/dit10b/assessment/planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/planning/</guid><description>Files Game Planning Template Design Brief Using a teme of your choice, design and develop a 2D Game. Your game must have the following features:
-Player movement Collectables/rewards A player score, which is displayed Enemies with collision events A winning state It must also feature:
-User friendly interface with messages Event sound effects Two levels (bonus) Game Proposal All projects need an introduction that tells the reader what the intended aim of the developed project will be.</description></item><item><title>Asteroid.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/asteroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/asteroid/</guid><description>using System.Collections; using System.Collections.Generic; using UnityEngine; public class Asteroid : MonoBehaviour { public GameObject explosionTemplate; // Start is called before the first frame update void Start() { } // Update is called once per frame void Update() { //Handle screen wrapping int margin = 50; Vector2 screenPos = Camera.main.WorldToScreenPoint(transform.position); if( screenPos.x &amp;gt; Screen.width+margin ){ //off right, move to left screenPos.x = -margin; }else if( screenPos.x &amp;lt; -margin ){ //off left, move to right screenPos.</description></item><item><title>Changing scenes</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/XXsnippets/sceneChange/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/XXsnippets/sceneChange/</guid><description>At the top of any script which calls scene changes, you will need to add:
-using UnityEngine.SceneManagement; At the point in your script where you want to change scenes, add the line:
-SceneManager.LoadScene(level); Replace level either with the name of the scene (a string) or the number of the scene from File &amp;gt; Build Settings (an int).</description></item><item><title>Character control</title><link>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</guid><description>from pressstart.vip
-View from inside TMC
-2D character animation Watch at TMC
-Character running and movement Watch at TMC
-Perfect jumping in Unity Watch at TMC</description></item><item><title>Components</title><link>https://tmcdigitech.github.io/dit10b/glossary/components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/components/</guid><description>All game objects have one or more components.
-Here are the ones you&amp;rsquo;re most likely to encounter.
-Name This is not actually a component, but it lives at the top of the inspector panel, above all the components. Here you can give your object a meaningful name as well as attach a tag, which is useful for identifying things during collisions.
-Transform All GameObjects have a transform component, which manages the position, rotation and scale of the object in the scene.</description></item><item><title>coordinates</title><link>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</guid><description>3D coordinate systems can be either left- or right-handed. In most of the maths and physics world, we us a right-handed system, but in Unity we use a left-handed one. But what does that mean?
-If you hold your left hand with your thumb pointing to the right (the x-axis) and your index finger pointing up (the y-axis), when you extend your middle finger it will point away from you. But if you do the same with your right hand, facing your thumb to the right and your index finger up, your middle finger will extend toward you.</description></item><item><title>Endless 2D background</title><link>https://tmcdigitech.github.io/dit10b/basics/endlessBackground/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/endlessBackground/</guid><description>from pressstart.vip
-HOW TO MAKE A SEAMLESS 2D BACKGROUND IN UNITY
-If you need some backgrounds in a hurry, check these ones out.
-Link to view at TMC
-Video sections 1:10 - Create C# Script 1:50 - Calculating Screen Boundaries 2:45 - Cycle through each of our background objects and load them on the screen 3:50 - Creating a function to setup the scene 6:40 - Creating a function to move our background elements to create a seamless effect 9:15 - Repositioning objects to fill the screen 10:20 - Adding a choke value to fix seams 11:00 - Final Product Source code for backgroundloop.</description></item><item><title>Hierarchy</title><link>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</guid><description/></item><item><title>Installation</title><link>https://tmcdigitech.github.io/dit10b/setup/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/setup/installation/</guid><description>You will need three main tools for developing in Unity, and all can be found on the TMC Company Portal.
-Unity Hub Unity Hub is responsible for managing licences and which version of Unity (if you have more than one) is associated with which project. You will start your workflow in Unity Hub, where you will select which project you&amp;rsquo;ll work on, or start a new one.
-Unity Unity (also referred to as the Unity Editor) is the heart of things.</description></item><item><title>LaserBlast.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/laserBlast/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/laserBlast/</guid><description>using System.Collections; using System.Collections.Generic; using UnityEngine; public class LaserBlast : MonoBehaviour { // Start is called before the first frame update void Start() { } // Update is called once per frame void Update() { //Handle screen wrapping int margin = 50; Vector2 screenPos = Camera.main.WorldToScreenPoint(transform.position); if( screenPos.x &amp;gt; Screen.width+margin || screenPos.x &amp;lt; -margin || screenPos.y &amp;gt; Screen.height+margin || screenPos.y &amp;lt; -margin ){ Destroy(this); } Vector3 newPos = Camera.main.ScreenToWorldPoint(screenPos); transform.position = new Vector2(newPos.</description></item><item><title>Platformer</title><link>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</guid><description>from kenney.nl
-The player sprites are 128×256px, all others are 128×128.
-Complete sheet
-Enemies
-Ground
-HUD
-Items
-Players
-Tiles</description></item><item><title>Player.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/player/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/player/</guid><description>using System.Collections; using System.Collections.Generic; using UnityEngine; public class Player : MonoBehaviour { public float rotSpeed; public float linSpeed; private Rigidbody2D rb; public GameObject projectileTemplate; // Start is called before the first frame update void Start() { rb = GetComponent&amp;lt;Rigidbody2D&amp;gt;(); } // Update is called once per frame void Update() { //Update rotation rb.MoveRotation(rb.rotation - Input.GetAxis(&amp;#34;Horizontal&amp;#34;) * rotSpeed * Time.deltaTime); //Update velocity Vector3 pos = transform.position; float y = Input.GetAxis(&amp;#34;Vertical&amp;#34;) * linSpeed * Time.</description></item><item><title>rock.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/rock/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/rock/</guid><description>using System.Collections; using System.Collections.Generic; using UnityEngine; public class Rock : MonoBehaviour { private Rigidbody2D rb; public GameObject explosionTemplate; public GameObject debrisTemplate; private float initializationTime; // Start is called before the first frame update void Start() { rb = GetComponent&amp;lt;Rigidbody2D&amp;gt;(); initializationTime = Time.timeSinceLevelLoad; //Choose a random angle float angle = Random.Range(0f, 360f); this.transform.rotation = Quaternion.Euler(0, 0, angle); //Choose a random speed float speed = Random.Range(0f, 5f); Vector3 s = new Vector3(0, speed, 0); rb.</description></item><item><title>types</title><link>https://tmcdigitech.github.io/dit10b/glossary/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/types/</guid><description>Kind of information Name Main type Other types whole numbers integer int uint, sbyte, byte, short, ushort, long, ulong decimals in scientific notation floating point number double float true/false boolean bool text string string individual letters, digits character char bool Boolean bool Integer Integers are whole numbers: positive, negative or zero. When you declare an integer you need to tell the computer how much space (how many digits) you need.</description></item><item><title>types</title><link>https://tmcdigitech.github.io/dit10b/reference/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/reference/types/</guid><description>In a computer, all information is stored as numbers. The numbers themselves don&amp;rsquo;t tell you anything about the data they represent, so you have to know what type of data a particular number is supposed to represent in order to interpret it.
-char (Single character) A character is something like a, 5, or @. They are letters, digits, punctuation, but also whitespace (e.g. space, tab, line-break) and some non-printing control characters.</description></item><item><title>unity components</title><link>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</guid><description>Transform Sprite Renderer Rigidbody [2D] Collider [2D] Transform The transform component is responsible for tracking the position, rotation and scale of the component in each of the three dimensions. Note that transform always has three dimensions, even when working in a 2D project.
-If you want to rotate an object in a 2D project, you probably want to rotate about the z-axis! Sprite Renderer Sprite renderers draw (render) 2D images (sprites).</description></item><item><title>VS Code makeover</title><link>https://tmcdigitech.github.io/dit10b/resources/vscMakeover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/resources/vscMakeover/</guid><description>Visual Studio Code is a fabulous and flexible editor. Here are some things I&amp;rsquo;ve added, which you might like too.
-Editing settings.json When you go to File &amp;gt; Preferences &amp;gt; Settings, all the options you see are stored in a file called settings.json. Enabling or changing some options requires editing the file directly. In this case, you can scroll down the settings page until you find a link called Edit in settings.</description></item><item><title>Walkthrough videos</title><link>https://tmcdigitech.github.io/dit10b/alienRescue/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/alienRescue/videos/</guid><description>Here is a series of short videos which will get you started building 2D games in Unity.
-Starting a project
-Unity Hub starting a new project Adding objects and making them interact
-adding objects sprites Rigidbody2D colliders User input; complex objects, and lots of them
-responding to user input compound objects prefabs constraints Collecting objects
-tagging objects collisions</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>10 Digital Tech on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/</link><description>Recent content in 10 Digital Tech on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/index.xml" rel="self" type="application/rss+xml"/><item><title>1: Create project</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/01createProject/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/01createProject/</guid><description>&lt;p>&lt;img src="createProject.png" alt="" />&lt;/p>
+&lt;p>Make sure you choose 2D for your template. The new project may take a few minutes to create.&lt;/p></description></item><item><title>Sequence</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://thecomputing.zone/Python/15-Challenges/">The Computing Zone&lt;/a>&lt;/em>&lt;/p>
+&lt;div class="gdoc-columns flex flex-wrap">
+ 
+ &lt;div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="1-three-in-three-out">
+ 1. Three in, three out
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/#1-three-in-three-out" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 1. Three in, three out" href="#1-three-in-three-out">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Write a program that will allow a user to enter their name (string), their age (integer) and their favourite TV program (string). The program will then display the information entered and some additional text on separate lines. An example of the input and output from the program is shown below.&lt;/p></description></item><item><title>2: Get some assets</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/02getSomeAssets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/02getSomeAssets/</guid><description>&lt;p>We need some objects to go in our game. In this example, we&amp;rsquo;ll use assets from &lt;a class="gdoc-markdown__link" href="https://kenney.nl/">kenney.nl&lt;/a>&amp;rsquo;s asset pack &lt;a class="gdoc-markdown__link" href="https://www.kenney.nl/assets/space-shooter-redux">Space Shooter Redux&lt;/a>.&lt;/p>
+&lt;p>We need:&lt;/p>
+&lt;ul>
+&lt;li>ships (us and them)&lt;/li>
+&lt;li>asteroids (we&amp;rsquo;re going large, medium, small)&lt;/li>
+&lt;li>powerups/tokens&lt;/li>
+&lt;li>laser blast&lt;/li>
+&lt;li>explosions&lt;/li>
+&lt;/ul>
+&lt;p>Here are the assets we&amp;rsquo;ll use:&lt;/p>
+&lt;p>&lt;img src="player_ship1_green.png" alt="" />
+&lt;img src="ufo_red.png" alt="" />&lt;/p>
+&lt;p>&lt;img src="meteor_grey_big3.png" alt="" />
+&lt;img src="meteor_grey_med1.png" alt="" />
+&lt;img src="meteor_grey_small1.png" alt="" />&lt;/p></description></item><item><title>Selection</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://thecomputing.zone/Python/15-Challenges/">The Computing Zone&lt;/a>&lt;/em>&lt;/p>
+&lt;div class="gdoc-columns flex flex-wrap">
+ 
+ &lt;div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="9-advice-please">
+ 9. Advice please
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/#9-advice-please" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 9. Advice please" href="#9-advice-please">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Write a program that asks the user if they would like some advice. If they enter Y, provide them with an amusing message.&lt;/p></description></item><item><title>3: Understand the Unity UI</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/03unityInterface/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/03unityInterface/</guid><description>&lt;p>Drag the sprite (image) for your player ship into the &lt;strong>Scene&lt;/strong> to create the &lt;code>GameObject&lt;/code> for your player.&lt;/p>
+&lt;p>&lt;img src="scene.png" alt="" />&lt;/p>
+&lt;p>The white rectangle shows what is visible on the &lt;strong>main camera&lt;/strong>, whose location is shown by the camera image in the centre of the scene. The main camera is what will appear on our &lt;strong>screen&lt;/strong>, so for our basic example, anything inside that white rectangle will be visible on screen, and anything outside will not be.&lt;/p></description></item><item><title>Iteration</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://thecomputing.zone/Python/15-Challenges/">The Computing Zone&lt;/a>&lt;/em>&lt;/p>
+&lt;blockquote class="gdoc-hint info">
+ &lt;p>For a walkthrough of the two main kinds of loops, check these examples:&lt;/p>
+&lt;ul>
+&lt;li>while loop (&lt;a class="gdoc-markdown__link" href="whileDemo.pdf">pdf&lt;/a> | &lt;a class="gdoc-markdown__link" href="whileDemo.pptx">ppt&lt;/a>)&lt;/li>
+&lt;li>for loop (&lt;a class="gdoc-markdown__link" href="forDemo.pdf">pdf&lt;/a> | &lt;a class="gdoc-markdown__link" href="forDemo.pptx">ppt&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+
+&lt;div class="gdoc-columns flex flex-wrap">
+ 
+ &lt;div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="13-lines-cheat">
+ 13. Lines cheat
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/#13-lines-cheat" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 13. Lines cheat" href="#13-lines-cheat">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>A naughty pupil has been given lines to copy as a punishment from their Computing teacher. The have been asked to type out “I must not behave like muppet in class” 20 times. Write a program that asks a pupil to enter a sentence. The same sentence should then be displayed 20 times.&lt;/p></description></item><item><title>4: Use the inspector</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/04usingTheInspector/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/04usingTheInspector/</guid><description>&lt;p>The inspector panel shows information about a selected &lt;code>GameObject&lt;/code>, including all its &lt;a class="gdoc-markdown__link" href="https://tmcdigitech.github.io/dit10b/glossary/components/">components&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="inspector.png" alt="" />&lt;/p>
+&lt;p>You can adjust values in the inspector by:&lt;/p>
+&lt;ul>
+&lt;li>typing values directly in an input field&lt;/li>
+&lt;li>dragging up/down or left/right on input field&amp;rsquo;s text label,&lt;/li>
+&lt;li>dragging an object from the hierarchy or assets panes onto a reference field (the fields with a little &amp;ldquo;target&amp;rdquo; at the right)&lt;/li>
+&lt;/ul>
+&lt;p>The dragging a label option can be really handy for working out approximately what the value for some property should be, before choosing a specific value for it.&lt;/p></description></item><item><title>5: Add components</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/05addingComponents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/05addingComponents/</guid><description>&lt;p>Using the Add Component button, add a &lt;code>Rigidbody2D&lt;/code> and a &lt;code>BoxCollider2D&lt;/code> component:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>Physics 2D &amp;gt; Rigidbody 2D&lt;/em> to add the &lt;a class="gdoc-markdown__link" href="https://tmcdigitech.github.io/dit10b/glossary/components/#rigidbody2d">Rigidbody2D&lt;/a> component, and&lt;/li>
+&lt;li>&lt;em>Physics 2D &amp;gt; BoxCollider 2D&lt;/em> to add a &lt;a class="gdoc-markdown__link" href="https://tmcdigitech.github.io/dit10b/glossary/components/#collider2d">BoxCollider2D&lt;/a> component.&lt;/li>
+&lt;/ul>
+&lt;p>The Rigidbody component exposes the object to the Physics engine, allowing forces to operate on it. If you press the play button above your scene now, you will see that the force of gravity causes your ship to fall off the bottom of the screen. Press play again to stop.&lt;/p></description></item><item><title>6: Get the player moving</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/06gettingMoving/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/06gettingMoving/</guid><description>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="disable-gravity">
+ Disable gravity
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/deepSpace/06gettingMoving/#disable-gravity" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Disable gravity" href="#disable-gravity">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>At the moment our player moves, but only because of gravity, and there isn&amp;rsquo;t a lot of gravity in space. So let&amp;rsquo;s turn that off. In the menu bar, go to Edit &amp;gt; Project Settings, choose Physics 2D from the sidebar, and set the Y value of Gravity to zero (0).&lt;/p></description></item><item><title>7: Add asteroids</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/07asteroids/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/07asteroids/</guid><description>&lt;p>Let&amp;rsquo;s add some asteroids. Since asteroids are all broadly alike, it&amp;rsquo;d be great if there was a way to set up one up with all the components and scripts we need and then just clone it, and there is: prefabs!&lt;/p>
+&lt;p>Drag one the large meteor image into the scene, and rename it &lt;code>asteroidLarge&lt;/code>. In the tag menu, select &amp;ldquo;Add tag&amp;rdquo;. Under &amp;ldquo;tags&amp;rdquo;, it will say &amp;ldquo;List is empty&amp;rdquo;. Click on the + at the right end of that box, and enter &amp;ldquo;Asteroid&amp;rdquo; and hit Save.&lt;/p></description></item><item><title>8: Wrap the screen</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/08screenWrapping.md/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/08screenWrapping.md/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#player">Player&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#asteroids">Asteroids&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>&lt;hr>&lt;/div>
+
+
+&lt;p>At the moment, once an asteroid (or your ship) disappears off the edge of the screen, it will continue moving forever and you&amp;rsquo;ll likely never find it again. In some games you might choose to attach the camera to the player so you can move around and keep the player on the screen, but in this case we&amp;rsquo;re going to wrap the screen: when the player moves off one edge, they&amp;rsquo;ll reappear on the other.&lt;/p></description></item><item><title>9: Move asteroids</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/09randomMovement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/09randomMovement/</guid><description>&lt;p>Having the asteroids hang in space as they do looks a litle unrealistic, so let&amp;rsquo;s add some code to the &lt;code>Start()&lt;/code> method to give them some initial movement.&lt;/p>
+&lt;p>The first part chooses a random angle from &lt;code>0&lt;/code> to &lt;code>360&lt;/code>, and sets the z-axis rotation to that angle.&lt;/p>
+&lt;p>The second part chooses a random speed from &lt;code>0.5&lt;/code> to &lt;code>2&lt;/code>. It then creates a vector pointing up (positive-y) which is the natural forward direction, and then rotates that vector to match the rotation of the asteroid.&lt;/p></description></item><item><title>10: Make a gun</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/10gun/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/10gun/</guid><description>&lt;p>Let&amp;rsquo;s make a gun. Our gun will be slightly odd, in that it won&amp;rsquo;t be attached directly to the ship. Instead, the thing we&amp;rsquo;re going to build will be invisible, and sit just in front of the ship. When we press the fire button (left Ctrl by default), our player will generate a laser blast at the location of the gun, which will then travel forward at speed.&lt;/p>
+&lt;p>We need to make sure that the gun object is a &amp;ldquo;child&amp;rdquo; object of the player, so that the gun is attached to the player and moves as the player moves. Right click on the player in the hierarchy, and choose &lt;em>2D Object &amp;gt; Sprites &amp;gt; Square&lt;/em>.&lt;/p></description></item><item><title>UFO assets</title><link>https://tmcdigitech.github.io/dit10b/alienRescue/UFO/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/alienRescue/UFO/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Name&lt;/th>
+ &lt;th style="text-align: left">Image&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">UFO&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="ufo.png" alt="ufo" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Alien&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="alien.png" alt="alien" />&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>UFO assets</title><link>https://tmcdigitech.github.io/dit10b/basics/UFO/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/UFO/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Name&lt;/th>
+ &lt;th style="text-align: left">Image&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">UFO&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="ufo.png" alt="ufo" />&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Alien&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="alien.png" alt="alien" />&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>11: Make a laser blast</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/11laserBlastPrefab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/11laserBlastPrefab/</guid><description>&lt;p>We now need to make our laser blast. Grab the laser blast you chose (ours is green) and drag it into the scene to make a new game object. Call it &amp;ldquo;playerBlast&amp;rdquo;. As you did for the asteroids, make a tag called &amp;ldquo;LaserBlast&amp;rdquo; and tag your new playerBlast.&lt;/p>
+&lt;p>While we&amp;rsquo;re setting things up, go ahead and add a &lt;code>BoxCollider2D&lt;/code> and a &lt;code>Rigidbody2D&lt;/code>.&lt;/p>
+&lt;p>Now turn your playerBlast into a prefab (drag it from the hierarchy down into the Assets panel). Since we don&amp;rsquo;t want a random green blast in the middle of the scene, select the blast in the scene and delete it.&lt;/p></description></item><item><title>12: Handle blast collisions</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/12laserCollisions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/12laserCollisions/</guid><description>&lt;p>You can see you can shoot laser blasts, and they collide with the asteroids, causing them to move. They also then bounce off in a weird way that makes them look more like shards of coloured ice than laser blasts!&lt;/p>
+&lt;p>Firstly, go to your playerBlast prefab (in the Assets panel). In its collider component, turn on the &amp;ldquo;Is Trigger&amp;rdquo; option. This turns the blast from a physical object that collides into more of a &amp;ldquo;magic region&amp;rdquo; that things can pass through. Imagine the finish line of a race track: you want to be alerted when things cross into and out of it still, but you don&amp;rsquo;t want them to bounce off.&lt;/p></description></item><item><title>13: Limit laser life</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/13limitLaserLife/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/13limitLaserLife/</guid><description>&lt;p>If you&amp;rsquo;re not a particularly accurate shot, those laser blasts you fire will continue to travel for ever, until the scene is unloaded (either due to changing the scene or quitting the game). This feels untidy and, in a big game, can cause resources to be tied up and used on things which aren&amp;rsquo;t relevant anymore. Let&amp;rsquo;s use the same idea used to handle screen wrapping to destroy the laser blasts once they reach the edge of the screen.&lt;/p></description></item><item><title>14: Make debris</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/14debris/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/14debris/</guid><description>&lt;p>Here we&amp;rsquo;re going to implement &amp;ldquo;debris&amp;rdquo;. When an asteroid is destroyed, it can break into smaller pieces, which can also be destroyed (and also potentially break into pieces). In practice, we will use a combination of &lt;code>Destroy()&lt;/code> and &lt;code>Instantiate()&lt;/code> to remove the old asteroid and create three new ones in its place. One is in the direction of the original asteroid, and the other two are mirrored at a random angle from that direction.&lt;/p></description></item><item><title>15: Make debris (part 2)</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/15duplicatePrefabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/15duplicatePrefabs/</guid><description>&lt;p>Select your asteroidLarge prefab and from the menubar choose &lt;em>Edit &amp;gt; Duplicate&lt;/em> (Ctrl-D). Choose the copy (should have a 1 at the end of the name) and choose Open from the inspector. You can now rename it asteroidMedium. It&amp;rsquo;ll ask you if you want to rename the file or keep the old name: choose Rename File. Drag your medium sprite image into the Sprite Renderer&amp;rsquo;s sprite field. You&amp;rsquo;ll now need to adjust the Collider size: Choose &amp;ldquo;Edit Collider&amp;rdquo; in the collider panel in the inspector, and use the green knobs to adjust the size. Click the button again to stop editing.&lt;/p></description></item><item><title>16: Make some noise</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/16sounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/16sounds/</guid><description>&lt;p>It is fairly easy to make some sound when we fire our lasers. We&amp;rsquo;ll cover some more complex examples later. To make sound you need an AudioSource, which makes sound, and an AudioListener, to hear it. By default, the main camera has an AudioListener attached, and that is perfect for our needs (it usually is, which is why it&amp;rsquo;s there).&lt;/p>
+&lt;p>Select your PlayerBlast prefab and add an &lt;em>Audio &amp;gt; AudioSource&lt;/em> component. You&amp;rsquo;ll see it has a reference field called AudioClip. We need to drop our laser blast noise in there, and we&amp;rsquo;re done. Here is one you can use:&lt;/p></description></item><item><title>17: More sounds</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/17moreSounds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/17moreSounds/</guid><description>&lt;blockquote class="gdoc-hint info">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h4 id="files">
+ Files
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/deepSpace/17moreSounds/#files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Files" href="#files">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h4>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="explosionCrunch_000.ogg">Asteroid explosion&lt;/a>&lt;/li>
+&lt;/ul>
+
+&lt;/blockquote>
+
+&lt;p>Let&amp;rsquo;s add a sound for when our asteroids blow up.&lt;/p></description></item><item><title>18: Show the score</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/18score/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/18score/</guid><description>&lt;p>Let&amp;rsquo;s give the user a sense of how well they&amp;rsquo;re doing; we&amp;rsquo;ll give them a point for every asteroid they shoot.&lt;/p>
+&lt;p>We&amp;rsquo;ll start by setting up the score display.
+Right click in the hierarchy and choose &lt;em>UI &amp;gt; Text - TextMeshPro&lt;/em>.&lt;/p>
+&lt;p>You&amp;rsquo;ll likely be presented with this box:&lt;/p>
+&lt;p>&lt;img src="tmpImporter.png" alt="" />&lt;/p>
+&lt;p>You&amp;rsquo;ll need to click the &amp;ldquo;Import TMP Essentials&amp;rdquo; button to continue. If you are keen to learn more about TextMesh Pro&amp;rsquo;s features, you can click the second button as well, but if you&amp;rsquo;re just going to rely on this tutorial series, don&amp;rsquo;t worry about it, and just close the window once the essentials have been added.&lt;/p></description></item><item><title>19: Update the score</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/19scoreTrack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/19scoreTrack/</guid><description>&lt;p>Now that we&amp;rsquo;ve got a place to display the score, we need a way of managing the score. The most flexible way to handle this is to make a game object whose job is to manage aspects of the game. A &lt;code>GameManager&lt;/code>!&lt;/p>
+&lt;p>In the hierarchy, create an empty game object (right click, choose &amp;ldquo;Create Empty&amp;rdquo;). Call this &amp;ldquo;GameManager&amp;rdquo;.&lt;/p>
+&lt;p>Add a script called GameManager to it.&lt;/p>
+&lt;p>The game manager will keep track of the score, and have a reference to the score display so it can update the display when the score changes. There is a method called &lt;code>ScoreIncrease()&lt;/code> which can be called by other objects to change the score. This is what our asteroids will use.&lt;/p></description></item><item><title>Player movement</title><link>https://tmcdigitech.github.io/dit10b/alienRescue/playerMovement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/alienRescue/playerMovement/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 7
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 8
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 9
+&lt;/span>&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="hl">&lt;span class="lnt">13
+&lt;/span>&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="hl">&lt;span class="lnt">19
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt">20
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt">21
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt">22
+&lt;/span>&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Player movement</title><link>https://tmcdigitech.github.io/dit10b/basics/playerMovement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/playerMovement/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 7
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 8
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 9
+&lt;/span>&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="hl">&lt;span class="lnt">13
+&lt;/span>&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="hl">&lt;span class="lnt">19
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt">20
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt">21
+&lt;/span>&lt;/span>&lt;span class="hl">&lt;span class="lnt">22
+&lt;/span>&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Camera follow player</title><link>https://tmcdigitech.github.io/dit10b/basics/cameraFollow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/cameraFollow/</guid><description>&lt;p>Attach this script to the main camera to make the camera track the player, keeping them in the centre of the screen.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Scenes</title><link>https://tmcdigitech.github.io/dit10b/basics/scenes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/scenes/</guid><description>&lt;p>Scenes are selected by number (on the right hand side of the scene list in the build settings).&lt;/p>
+&lt;p>The two highlighted lines are the key ingredients here.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="hl">&lt;span class="lnt"> 4
+&lt;/span>&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="hl">&lt;span class="lnt">11
+&lt;/span>&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Assets</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/assets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/assets/</guid><description>&lt;p>Alt-click to download:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="AsteroidExplosion.prefab">Explosion 1&lt;/a>&lt;/li>
+&lt;li>&lt;a class="gdoc-markdown__link" href="SpaceshipExplosion.prefab">Explosion 2&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Rigidbody vs Translate</title><link>https://tmcdigitech.github.io/dit10b/basics/RigidbodyOrTranslate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/RigidbodyOrTranslate/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://pressstart.vip/tutorials/2018/10/19/71/rigidbody-vs-translate.html">pressstart.vip&lt;/a>&lt;/em>&lt;/p>
+&lt;p>
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ixM2W2tPn6c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;a class="gdoc-markdown__link" href="https://web.microsoftstream.com/video/c1a1f426-951c-4009-aadd-e18f6af8bcd3">Link to view at TMC&lt;/a>&lt;/p></description></item><item><title>2. Deep Space Game</title><link>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</guid><description/></item><item><title>3: 2D Game Design Project</title><link>https://tmcdigitech.github.io/dit10b/assessment/planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/planning/</guid><description>&lt;blockquote class="gdoc-hint info">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h6 id="files">
+ Files
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/planning/#files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Files" href="#files">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="GamePlanning.docx">Game Planning Template&lt;/a>&lt;/li>
+&lt;/ul>
+
+&lt;/blockquote>
+
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="design-brief">
+ Design Brief
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/planning/#design-brief" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Design Brief" href="#design-brief">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Using a teme of your choice, design and develop a 2D Game. Your game must have the following features:&lt;/p></description></item><item><title>Asteroid.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/asteroid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/asteroid/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cs" data-lang="cs">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Asteroid&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">explosionTemplate&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Start is called before the first frame update&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Update is called once per frame&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Handle screen wrapping&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">margin&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">50&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector2&lt;/span> &lt;span class="n">screenPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WorldToScreenPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off right, move to left&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off left, move to right&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off bottom, move to top&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off top, move to bottom&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">newPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ScreenToWorldPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">screenPos&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector2&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">newPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">newPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">OnTriggerEnter2D&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Collider2D&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">CompareTag&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;rockKiller&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">explosion&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">explosionTemplate&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Changing scenes</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/XXsnippets/sceneChange/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/XXsnippets/sceneChange/</guid><description>&lt;p>At the top of any script which calls scene changes, you will need to add:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cs" data-lang="cs">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine.SceneManagement&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>At the point in your script where you want to change scenes, add the line:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cs" data-lang="cs">&lt;span class="line">&lt;span class="cl">&lt;span class="n">SceneManager&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">LoadScene&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">level&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Replace &lt;code>level&lt;/code> either with the name of the scene (a string) or the number of the scene from &lt;em>File &amp;gt; Build Settings&lt;/em> (an int).&lt;/p></description></item><item><title>Character control</title><link>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/characterSetup/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://pressstart.vip/">pressstart.vip&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/Lists/10%20Digital%20Tech%20Tutorials/AllItems.aspx?env=WebViewList&amp;amp;viewid=352af62c%2Db633%2D41f3%2Db32e%2D6ef40c20b92c&amp;amp;playlistLayout=playback&amp;amp;itemId=1">View from inside TMC&lt;/a>&lt;/p>
+&lt;p>&lt;strong>&lt;a class="gdoc-markdown__link" href="https://pressstart.vip/tutorials/2019/09/15/102/2d-character-animation.html">2D character animation&lt;/a>&lt;/strong>
+&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/:v:/r/personal/aknight_tmc_catholic_edu_au/Documents/video/2dPlatformer/2D%20Character%20Animation%20in%20Unity%20%5Bpt%201%20of%204%5D%20%5BGqel6Ed4LpY%5D.mp4?csf=1&amp;amp;web=1&amp;amp;e=vWxHaA&amp;amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19">Watch at TMC&lt;/a>&lt;/p>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Gqel6Ed4LpY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;p>&lt;strong>&lt;a class="gdoc-markdown__link" href="https://pressstart.vip/tutorials/2019/10/1/103/character-running-and-movement.html">Character running and movement&lt;/a>&lt;/strong>
+&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/:v:/r/personal/aknight_tmc_catholic_edu_au/Documents/video/2dPlatformer/2D%20Character%20Animation%20in%20Unity%20%5Bpt%201%20of%204%5D%20%5BGqel6Ed4LpY%5D.mp4?csf=1&amp;amp;web=1&amp;amp;e=vWxHaA&amp;amp;nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19">Watch at TMC&lt;/a>&lt;/p></description></item><item><title>Components</title><link>https://tmcdigitech.github.io/dit10b/glossary/components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/components/</guid><description>&lt;p>All &lt;a class="gdoc-markdown__link" href="https://tmcdigitech.github.io/dit10b/glossary/hierarchy/">game objects&lt;/a> have one or more &lt;strong>components&lt;/strong>.&lt;/p>
+&lt;p>Here are the ones you&amp;rsquo;re most likely to encounter.&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="name">
+ Name
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/components/#name" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Name" href="#name">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>&lt;img src="nameTagPrefab.png" alt="" />&lt;/p></description></item><item><title>coordinates</title><link>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/coordinates/</guid><description>&lt;p>3D coordinate systems can be either left- or right-handed.
+In most of the maths and physics world, we us a right-handed system,
+but in Unity we use a left-handed one. But what does that mean?&lt;/p>
+&lt;p>If you hold your left hand with your thumb pointing to the right (the x-axis)
+and your index finger pointing up (the y-axis), when you extend your middle finger
+it will point away from you. But if you do the same with your right hand, facing your
+thumb to the right and your index finger up, your middle finger will extend toward you.&lt;/p></description></item><item><title>Endless 2D background</title><link>https://tmcdigitech.github.io/dit10b/basics/endlessBackground/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/endlessBackground/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://pressstart.vip/tutorials/2019/04/15/93/endless-2d-background.html">pressstart.vip&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;em>HOW TO MAKE A SEAMLESS 2D BACKGROUND IN UNITY&lt;/em>&lt;/p>
+&lt;p>If you need some backgrounds in a hurry, &lt;a class="gdoc-markdown__link" href="https://tmcdigitech.github.io/dit8/gameDesign/02basics/assetsPlatform/backgrounds/">check these ones out&lt;/a>.&lt;/p>
+&lt;p>
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/3UO-1suMbNc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;a class="gdoc-markdown__link" href="https://web.microsoftstream.com/video/38117d48-3462-4639-a646-40a7e9a771ac">Link to view at TMC&lt;/a>&lt;/p></description></item><item><title>Hierarchy</title><link>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/hierarchy/</guid><description>&lt;p>&lt;img src="hierarchy.png" alt="" />&lt;/p></description></item><item><title>Installation</title><link>https://tmcdigitech.github.io/dit10b/setup/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/setup/installation/</guid><description>&lt;p>You will need three main tools for developing in Unity, and all can be found on the TMC Company Portal.&lt;/p>
+&lt;p>&lt;img src="unityHub.png" alt="Unity Hub" />
+&lt;img src="unity.png" alt="Unity" />
+&lt;img src="vsCode.png" alt="Visual Studio Code" />&lt;/p>
+&lt;p>&lt;img src="companyPortal.png" alt="Company Portal" />&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="unity-hub">
+ Unity Hub
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/setup/installation/#unity-hub" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Unity Hub" href="#unity-hub">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Unity Hub is responsible for managing licences and which version of Unity (if you have more than one) is associated with which project. You will start your workflow in Unity Hub, where you will select which project you&amp;rsquo;ll work on, or start a new one.&lt;/p></description></item><item><title>LaserBlast.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/laserBlast/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/laserBlast/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cs" data-lang="cs">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">LaserBlast&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Start is called before the first frame update&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Update is called once per frame&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Handle screen wrapping&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">margin&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">50&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector2&lt;/span> &lt;span class="n">screenPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WorldToScreenPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">||&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">||&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">||&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">newPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ScreenToWorldPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">screenPos&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector2&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">newPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">newPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>Platformer</title><link>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/basics/Asset-sets/platformerRedux/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://kenney.nl/assets/platformer-pack-redux">kenney.nl&lt;/a>&lt;/em>&lt;/p>
+&lt;p>The player sprites are 128×256px, all others are 128×128.&lt;/p>
+&lt;p>Complete sheet&lt;/p>
+&lt;p>&lt;img src="spritesheet_complete.png" alt="" />&lt;/p>
+&lt;p>Enemies&lt;/p>
+&lt;p>&lt;img src="spritesheet_enemies.png" alt="" />&lt;/p>
+&lt;p>Ground&lt;/p>
+&lt;p>&lt;img src="spritesheet_ground.png" alt="" />&lt;/p>
+&lt;p>HUD&lt;/p>
+&lt;p>&lt;img src="spritesheet_hud.png" alt="" />&lt;/p>
+&lt;p>Items&lt;/p>
+&lt;p>&lt;img src="spritesheet_items.png" alt="" />&lt;/p>
+&lt;p>Players&lt;/p>
+&lt;p>&lt;img src="spritesheet_players.png" alt="" />&lt;/p>
+&lt;p>Tiles&lt;/p>
+&lt;p>&lt;img src="spritesheet_tiles.png" alt="" />&lt;/p></description></item><item><title>Player.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/player/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/player/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cs" data-lang="cs">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Player&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">rotSpeed&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">linSpeed&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Rigidbody2D&lt;/span> &lt;span class="n">rb&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">projectileTemplate&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Start is called before the first frame update&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rb&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody2D&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Update is called once per frame&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Update rotation&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rb&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">MoveRotation&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">rb&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">-&lt;/span> &lt;span class="n">Input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetAxis&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Horizontal&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">rotSpeed&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">Time&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">deltaTime&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Update velocity&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">pos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">float&lt;/span> &lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetAxis&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Vertical&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">linSpeed&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">Time&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">deltaTime&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector2&lt;/span> &lt;span class="n">vChange&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector2&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">vChange&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">vChange&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rb&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">velocity&lt;/span> &lt;span class="p">+=&lt;/span> &lt;span class="n">vChange&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Handle screen wrapping&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">margin&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">50&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Work out our screen position&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector2&lt;/span> &lt;span class="n">screenPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WorldToScreenPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Check if we&amp;#39;ve moved too far offscreen&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off right, move to left&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off left, move to right&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off bottom, move to top&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>&lt;span class="k">else&lt;/span> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off top, move to bottom&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Work out our new world position&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">newPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ScreenToWorldPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">screenPos&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector2&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">newPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">newPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Handle fire button&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">Input&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetButtonDown&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Fire1&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">gun1&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;gun1&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">blast&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">projectileTemplate&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">gun1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">gun1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">blast&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody2D&lt;/span>&lt;span class="p">&amp;gt;().&lt;/span>&lt;span class="n">AddRelativeForce&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">new&lt;/span> &lt;span class="n">Vector2&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">800&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>rock.cs</title><link>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/rock/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/deepSpace/finishedScripts/rock/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cs" data-lang="cs">&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">System.Collections.Generic&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">using&lt;/span> &lt;span class="nn">UnityEngine&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">public&lt;/span> &lt;span class="k">class&lt;/span> &lt;span class="nc">Rock&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">MonoBehaviour&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="n">Rigidbody2D&lt;/span> &lt;span class="n">rb&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">explosionTemplate&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">debrisTemplate&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">private&lt;/span> &lt;span class="kt">float&lt;/span> &lt;span class="n">initializationTime&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Start is called before the first frame update&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Start&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rb&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody2D&lt;/span>&lt;span class="p">&amp;gt;();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">initializationTime&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Time&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">timeSinceLevelLoad&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Choose a random angle&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">float&lt;/span> &lt;span class="n">angle&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0f&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">360f&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Quaternion&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Euler&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">angle&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//Choose a random speed&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">float&lt;/span> &lt;span class="n">speed&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0f&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">5f&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">s&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector3&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">speed&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">rb&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">velocity&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">s&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Update is called once per frame&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">void&lt;/span> &lt;span class="n">Update&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">int&lt;/span> &lt;span class="n">margin&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="m">50&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector2&lt;/span> &lt;span class="n">screenPos&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WorldToScreenPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off right, move to left&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off left, move to right&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">width&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;gt;&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off bottom, move to top&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">margin&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//off top, move to bottom&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">screenPos&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Screen&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">height&lt;/span>&lt;span class="p">+&lt;/span>&lt;span class="n">margin&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">newWorldPosition&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Camera&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">main&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">ScreenToWorldPoint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">screenPos&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector2&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">newWorldPosition&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">newWorldPosition&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">y&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">OnCollisionEnter2D&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Collision2D&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">Time&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">timeSinceLevelLoad&lt;/span> &lt;span class="p">-&lt;/span> &lt;span class="n">initializationTime&lt;/span> &lt;span class="p">&amp;lt;&lt;/span> &lt;span class="m">0.5&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">CompareTag&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Rock&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">||&lt;/span> &lt;span class="n">other&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">CompareTag&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;LaserBlast&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">SetActive&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Destroy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">gameObject&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">explosion&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">explosionTemplate&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">as&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">debrisTemplate&lt;/span> &lt;span class="p">!=&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">){&lt;/span> &lt;span class="c1">// &amp;#34;!=&amp;#34; = &amp;#34;!&amp;#34; + &amp;#34;=&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">float&lt;/span> &lt;span class="n">angle&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">30f&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">150f&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">float&lt;/span> &lt;span class="n">speed&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Random&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">5f&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">10f&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Vector3&lt;/span> &lt;span class="n">s&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="n">Vector3&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">speed&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">a&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">debrisTemplate&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">Quaternion&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Euler&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">angle&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">as&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">a&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody2D&lt;/span>&lt;span class="p">&amp;gt;().&lt;/span>&lt;span class="n">velocity&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">s&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GameObject&lt;/span> &lt;span class="n">b&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Instantiate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">debrisTemplate&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">position&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">Quaternion&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Euler&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">-&lt;/span>&lt;span class="n">angle&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">as&lt;/span> &lt;span class="n">GameObject&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">b&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">GetComponent&lt;/span>&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="n">Rigidbody2D&lt;/span>&lt;span class="p">&amp;gt;().&lt;/span>&lt;span class="n">velocity&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">b&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">transform&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">rotation&lt;/span> &lt;span class="p">*&lt;/span> &lt;span class="n">s&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>types</title><link>https://tmcdigitech.github.io/dit10b/glossary/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/types/</guid><description>&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Kind of information&lt;/th>
+ &lt;th style="text-align: left">Name&lt;/th>
+ &lt;th style="text-align: left">Main type&lt;/th>
+ &lt;th style="text-align: left">Other types&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">whole numbers&lt;/td>
+ &lt;td style="text-align: left">integer&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;td style="text-align: left">uint, sbyte, byte, short, ushort, long, ulong&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">decimals in scientific notation&lt;/td>
+ &lt;td style="text-align: left">floating point number&lt;/td>
+ &lt;td style="text-align: left">double&lt;/td>
+ &lt;td style="text-align: left">float&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">true/false&lt;/td>
+ &lt;td style="text-align: left">boolean&lt;/td>
+ &lt;td style="text-align: left">bool&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">text&lt;/td>
+ &lt;td style="text-align: left">string&lt;/td>
+ &lt;td style="text-align: left">string&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">individual letters, digits&lt;/td>
+ &lt;td style="text-align: left">character&lt;/td>
+ &lt;td style="text-align: left">char&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+
+
+ &lt;div class="gdoc-toc gdoc-toc__level--6">&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#bool">&lt;code>bool&lt;/code>&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>&lt;hr>&lt;/div>
+
+
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="boolean">
+ Boolean
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/types/#boolean" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Boolean" href="#boolean">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="bool">
+ &lt;code>bool&lt;/code>
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/types/#bool" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor bool" href="#bool">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="integer">
+ Integer
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/types/#integer" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Integer" href="#integer">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;p>Integers are whole numbers: positive, negative or zero. When you declare an integer you need to tell the computer how much space (how many digits) you need. On most modern systems, the default kind of integer (usually called &lt;code>int&lt;/code>) is a &lt;em>32-bit signed&lt;/em> integer, which can store numbers between &lt;code>-2,147,483,648&lt;/code> and &lt;code>2,147,483,647&lt;/code>. Unless you have a good reason to choose differently, this is usually the best bet.&lt;/p></description></item><item><title>types</title><link>https://tmcdigitech.github.io/dit10b/reference/types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/reference/types/</guid><description>&lt;p>In a computer, all information is stored as numbers. The numbers themselves don&amp;rsquo;t tell you anything about the data they represent, so you have to know what &lt;em>type&lt;/em> of data a particular number is supposed to represent in order to interpret it.&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h3 id="char-single-character">
+ char (Single character)
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/reference/types/#char-single-character" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor char (Single character)" href="#char-single-character">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h3>
+&lt;/div>&lt;p>A character is something like &lt;code>a&lt;/code>, &lt;code>5&lt;/code>, or &lt;code>@&lt;/code>. They are letters, digits, punctuation, but also whitespace (e.g. space, tab, line-break) and some non-printing control characters.&lt;/p></description></item><item><title>unity components</title><link>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/glossary/unityComponents/</guid><description>&lt;div class="gdoc-toc gdoc-toc__level--6">&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#transform">Transform&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#sprite-renderer">Sprite Renderer&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#rigidbody-2d">Rigidbody [2D]&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#collider-2d">Collider [2D]&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>&lt;hr>&lt;/div>
+
+
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="transform">
+ Transform
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/glossary/unityComponents/#transform" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Transform" href="#transform">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>The transform component is responsible for tracking the position, rotation and scale of the component in each of the three dimensions. Note that transform always has three dimensions, even when working in a 2D project.&lt;/p></description></item><item><title>VS Code makeover</title><link>https://tmcdigitech.github.io/dit10b/resources/vscMakeover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/resources/vscMakeover/</guid><description>&lt;p>Visual Studio Code is a fabulous and flexible editor. Here are some things I&amp;rsquo;ve added, which you might like too.&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h1 id="editing-settingsjson">
+ Editing &lt;code>settings.json&lt;/code>
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/resources/vscMakeover/#editing-settingsjson" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Editing settings.json" href="#editing-settingsjson">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h1>
+&lt;/div>&lt;p>When you go to File &amp;gt; Preferences &amp;gt; Settings, all the options you see are stored in a file called &lt;code>settings.json&lt;/code>. Enabling or changing some options requires editing the file directly. In this case, you can scroll down the settings page until you find a link called &lt;code>Edit in settings.json&lt;/code>.&lt;/p></description></item><item><title>Walkthrough videos</title><link>https://tmcdigitech.github.io/dit10b/alienRescue/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/alienRescue/videos/</guid><description>&lt;p>Here is a series of short videos which will get you started building 2D games in Unity.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/:v:/r/personal/aknight_tmc_catholic_edu_au/Documents/video/alienRescueStarter/1%20Starting%20a%20project.mp4">Starting a project&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Unity Hub&lt;/li>
+&lt;li>starting a new project&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/:v:/r/personal/aknight_tmc_catholic_edu_au/Documents/video/alienRescueStarter/2%20Adding%20objects%20and%20making%20them%20interact.mp4">Adding objects and making them interact&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>adding objects&lt;/li>
+&lt;li>sprites&lt;/li>
+&lt;li>Rigidbody2D&lt;/li>
+&lt;li>colliders&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/:v:/r/personal/aknight_tmc_catholic_edu_au/Documents/video/alienRescueStarter/3%20-%20User%20input;%20complex%20objects,%20and%20lots%20of%20them.mp4">User input; complex objects, and lots of them&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>responding to user input&lt;/li>
+&lt;li>compound objects&lt;/li>
+&lt;li>prefabs&lt;/li>
+&lt;li>constraints&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="gdoc-markdown__link" href="https://tmccatholiceduau-my.sharepoint.com/:v:/r/personal/aknight_tmc_catholic_edu_au/Documents/video/alienRescueStarter/4%20-%20Collecting%20objects.mp4">Collecting objects&lt;/a>&lt;/p></description></item></channel></rss>

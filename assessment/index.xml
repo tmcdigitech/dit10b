@@ -1,3 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assessment Tasks on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/assessment/</link><description>Recent content in Assessment Tasks on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/assessment/index.xml" rel="self" type="application/rss+xml"/><item><title>2. Deep Space Game</title><link>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</guid><description/></item><item><title>3: 2D Game Design Project</title><link>https://tmcdigitech.github.io/dit10b/assessment/planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/planning/</guid><description>Files Game Planning Template Design Brief Using a teme of your choice, design and develop a 2D Game. Your game must have the following features:
-Player movement Collectables/rewards A player score, which is displayed Enemies with collision events A winning state It must also feature:
-User friendly interface with messages Event sound effects Two levels (bonus) Game Proposal All projects need an introduction that tells the reader what the intended aim of the developed project will be.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Assessment Tasks on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/assessment/</link><description>Recent content in Assessment Tasks on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/assessment/index.xml" rel="self" type="application/rss+xml"/><item><title>2. Deep Space Game</title><link>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/deepSpace/</guid><description/></item><item><title>3: 2D Game Design Project</title><link>https://tmcdigitech.github.io/dit10b/assessment/planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/planning/</guid><description>&lt;blockquote class="gdoc-hint info">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h6 id="files">
+ Files
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/planning/#files" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Files" href="#files">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h6>
+&lt;/div>&lt;ul>
+&lt;li>&lt;a class="gdoc-markdown__link" href="GamePlanning.docx">Game Planning Template&lt;/a>&lt;/li>
+&lt;/ul>
+
+&lt;/blockquote>
+
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="design-brief">
+ Design Brief
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/planning/#design-brief" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Design Brief" href="#design-brief">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Using a teme of your choice, design and develop a 2D Game. Your game must have the following features:&lt;/p></description></item></channel></rss>

@@ -1,7 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1: Programming Checkpoints on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/</link><description>Recent content in 1: Programming Checkpoints on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/index.xml" rel="self" type="application/rss+xml"/><item><title>Sequence</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</guid><description>from The Computing Zone
-1. Three in, three out Write a program that will allow a user to enter their name (string), their age (integer) and their favourite TV program (string). The program will then display the information entered and some additional text on separate lines. An example of the input and output from the program is shown below.
-What is your name? &amp;gt; Lister What is your age? &amp;gt; 39 What is your favourite TV program?</description></item><item><title>Selection</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</guid><description>from The Computing Zone
-9. Advice please Write a program that asks the user if they would like some advice. If they enter Y, provide them with an amusing message.
-Would you like some advice? &amp;gt; Y Always know where your towel is. Would you like some advice? &amp;gt; N 10. Darts During a game of darts, the highest score that can be achieved in a single turn is 180. The lowest is 0.</description></item><item><title>Iteration</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</guid><description>from The Computing Zone
-For a walkthrough of the two main kinds of loops, check these examples:
-while loop (pdf | ppt) for loop (pdf | ppt) 13. Lines cheat A naughty pupil has been given lines to copy as a punishment from their Computing teacher. The have been asked to type out “I must not behave like muppet in class” 20 times. Write a program that asks a pupil to enter a sentence.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1: Programming Checkpoints on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/</link><description>Recent content in 1: Programming Checkpoints on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/index.xml" rel="self" type="application/rss+xml"/><item><title>Sequence</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://thecomputing.zone/Python/15-Challenges/">The Computing Zone&lt;/a>&lt;/em>&lt;/p>
+&lt;div class="gdoc-columns flex flex-wrap">
+ 
+ &lt;div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="1-three-in-three-out">
+ 1. Three in, three out
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/sequence/#1-three-in-three-out" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 1. Three in, three out" href="#1-three-in-three-out">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Write a program that will allow a user to enter their name (string), their age (integer) and their favourite TV program (string). The program will then display the information entered and some additional text on separate lines. An example of the input and output from the program is shown below.&lt;/p></description></item><item><title>Selection</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://thecomputing.zone/Python/15-Challenges/">The Computing Zone&lt;/a>&lt;/em>&lt;/p>
+&lt;div class="gdoc-columns flex flex-wrap">
+ 
+ &lt;div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="9-advice-please">
+ 9. Advice please
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/selection/#9-advice-please" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 9. Advice please" href="#9-advice-please">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Write a program that asks the user if they would like some advice. If they enter Y, provide them with an amusing message.&lt;/p></description></item><item><title>Iteration</title><link>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/</guid><description>&lt;p>&lt;em>from &lt;a class="gdoc-markdown__link" href="https://thecomputing.zone/Python/15-Challenges/">The Computing Zone&lt;/a>&lt;/em>&lt;/p>
+&lt;blockquote class="gdoc-hint info">
+ &lt;p>For a walkthrough of the two main kinds of loops, check these examples:&lt;/p>
+&lt;ul>
+&lt;li>while loop (&lt;a class="gdoc-markdown__link" href="whileDemo.pdf">pdf&lt;/a> | &lt;a class="gdoc-markdown__link" href="whileDemo.pptx">ppt&lt;/a>)&lt;/li>
+&lt;li>for loop (&lt;a class="gdoc-markdown__link" href="forDemo.pdf">pdf&lt;/a> | &lt;a class="gdoc-markdown__link" href="forDemo.pptx">ppt&lt;/a>)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+
+&lt;div class="gdoc-columns flex flex-wrap">
+ 
+ &lt;div class="gdoc-columns__content gdoc-markdown--nested flex-even">
+ &lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="13-lines-cheat">
+ 13. Lines cheat
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/assessment/progCheckpoint/iteration/#13-lines-cheat" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor 13. Lines cheat" href="#13-lines-cheat">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>A naughty pupil has been given lines to copy as a punishment from their Computing teacher. The have been asked to type out “I must not behave like muppet in class” 20 times. Write a program that asks a pupil to enter a sentence. The same sentence should then be displayed 20 times.&lt;/p></description></item></channel></rss>

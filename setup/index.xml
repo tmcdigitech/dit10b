@@ -1,3 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Setting up for Unity on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/setup/</link><description>Recent content in Setting up for Unity on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://tmcdigitech.github.io/dit10b/setup/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/setup/installation/</guid><description>You will need three main tools for developing in Unity, and all can be found on the TMC Company Portal.
-Unity Hub Unity Hub is responsible for managing licences and which version of Unity (if you have more than one) is associated with which project. You will start your workflow in Unity Hub, where you will select which project you&amp;rsquo;ll work on, or start a new one.
-Unity Unity (also referred to as the Unity Editor) is the heart of things.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Setting up for Unity on TMC - 10 Digital Tech Semester 2</title><link>https://tmcdigitech.github.io/dit10b/setup/</link><description>Recent content in Setting up for Unity on TMC - 10 Digital Tech Semester 2</description><generator>Hugo</generator><language>en-au</language><atom:link href="https://tmcdigitech.github.io/dit10b/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://tmcdigitech.github.io/dit10b/setup/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tmcdigitech.github.io/dit10b/setup/installation/</guid><description>&lt;p>You will need three main tools for developing in Unity, and all can be found on the TMC Company Portal.&lt;/p>
+&lt;p>&lt;img src="unityHub.png" alt="Unity Hub" />
+&lt;img src="unity.png" alt="Unity" />
+&lt;img src="vsCode.png" alt="Visual Studio Code" />&lt;/p>
+&lt;p>&lt;img src="companyPortal.png" alt="Company Portal" />&lt;/p>
+&lt;div class="gdoc-page__anchorwrap">
+ &lt;h2 id="unity-hub">
+ Unity Hub
+ &lt;a data-clipboard-text="https://tmcdigitech.github.io/dit10b/setup/installation/#unity-hub" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Unity Hub" href="#unity-hub">
+ &lt;svg class="icon gdoc_link">&lt;use xlink:href="#gdoc_link">&lt;/use>&lt;/svg>
+ &lt;/a>
+ &lt;/h2>
+&lt;/div>&lt;p>Unity Hub is responsible for managing licences and which version of Unity (if you have more than one) is associated with which project. You will start your workflow in Unity Hub, where you will select which project you&amp;rsquo;ll work on, or start a new one.&lt;/p></description></item></channel></rss>
