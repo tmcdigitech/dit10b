@@ -2,44 +2,44 @@
 title: 3D example links
 ---
 
-Playlist: [YouTube](https://www.youtube.com/playlist?list=PLrnPJCHvNZuB5ATsJZLKX3AW4V9XaIV9b) | [MS Stream (for viewing at TMC)](https://web.microsoftstream.com/channel/ed35021e-8274-47fe-b6d3-7c617d3afd81)
+Playlist: [YouTube](https://www.youtube.com/playlist?list=PLrnPJCHvNZuB5ATsJZLKX3AW4V9XaIV9b)
 
 **Build your first 3D game in Unity**
 {{< youtube n0GQL5JgJcY >}}
-[View at TMC](https://web.microsoftstream.com/video/935452a1-de8c-4c4e-9e0f-d646fca9cb3c)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F01%20Build%20Your%20First%203D%20Game%20in%20Unity%20｜%20Unity%20Beginner%20Tutorial%20%5Bn0GQL5JgJcY%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7b45b4af%2Db452%2D4f96%2Da77b%2Df33c35950eac)
 
 **First level**
 {{< youtube 54qz4SyQWZM >}}
-[View at TMC](https://web.microsoftstream.com/video/f61a59fd-aa39-4640-bd86-97214a8f92af)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F02%20First%20Level%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%232%20%5B54qz4SyQWZM%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ecb4d3a9f%2Db5f9%2D469a%2D8a62%2D683df08514d2)
 
 **Player movement**
 {{< youtube HmouLR4X47I >}}
-[View at TMC](https://web.microsoftstream.com/video/c326b5e8-dc7b-4ebb-a60f-517d47186090)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F03%20Player%20Movement%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%233%20%5BHmouLR4X47I%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed794cd94%2D1245%2D47a0%2Daca6%2D261f9e753fcc)
 
 **Grounding check**
 {{< youtube Ekfio0gfn-Y >}}
-[View at TMC](https://web.microsoftstream.com/video/5e5395a9-54fa-40ba-b825-1eec0ae20f42)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F04%20Grounding%20Check%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%234%20%5BEkfio0gfn%2DY%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8a05340a%2D640c%2D49e4%2Db1a1%2D2adcab87a01f)
 
 **Moving platforms**
 {{< youtube dWtjKKR7Q3s >}}
-[View at TMC](https://web.microsoftstream.com/video/53e0ba92-2580-4b5d-ad84-79674a860035?list=studio)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F05%20Moving%20Platforms%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%235%20%5BdWtjKKR7Q3s%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E29d3b572%2Dbd06%2D47e9%2D967f%2D351916162955)
 
 **Walking enemies**
 {{< youtube B90r-209vYk>}}
-[View at TMC](https://web.microsoftstream.com/video/2984f7bc-e2e7-4bbd-8a71-adb899f3ce30)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F06%20Walking%20Enemies%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%236%20%5BB90r%2D209vYk%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee00f08d8%2D9bb0%2D49e0%2Db323%2D7ac2a697da15)
 
 **Collectible items**
 {{< youtube YQEq6Lkd69c >}}
-[View at TMC](https://web.microsoftstream.com/video/e6c01b8f-ce99-489a-8a69-85ac5eac1093)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F07%20Collectible%20Items%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%237%20%5BYQEq6Lkd69c%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E399e0be0%2Db47d%2D4079%2D928f%2Ddb5396e8a70a)
 
 **Sounds and music**
 {{< youtube Gs5QxGrRzNQ >}}
-[View at TMC](https://web.microsoftstream.com/video/d86ef321-be79-4555-be81-5d2478cf593b)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F08%20Sounds%20%26%20Music%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%238%20%5BGs5QxGrRzNQ%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E422223a6%2D84b0%2D4fdf%2Db926%2D0fc1118ac661)
 
 **Adding more levels**
 {{< youtube Va90Uf28Tg8 >}}
-[View at TMC](https://web.microsoftstream.com/video/dcd425a8-9d12-4899-841b-b65f100c4211)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F09%20Adding%20More%20Levels%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%239%20%5BVa90Uf28Tg8%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E20132916%2D08eb%2D4b10%2Db61a%2Dc013a5932557)
 
 **Start and game over screen**
 {{< youtube 1Ye-mCuIIdw >}}
-[View at TMC](https://web.microsoftstream.com/video/b10aa611-c8e0-4be0-83bf-3f72c9abff19)
+[View at TMC](https://tmccatholiceduau-my.sharepoint.com/personal/aknight_tmc_catholic_edu_au/_layouts/15/stream.aspx?id=%2Fpersonal%2Faknight%5Ftmc%5Fcatholic%5Fedu%5Fau%2FDocuments%2Fvideo%2F3dPlatformer%2F10%20Start%20%26%20Game%20Over%20Screen%20｜%20Build%20Your%20First%203D%20Game%20in%20Unity%20%2310%20%5B1Ye%2DmCuIIdw%5D%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0e141ef3%2D6bae%2D4a15%2D9829%2D76ab0024fa82)
